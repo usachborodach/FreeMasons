@@ -1,7 +1,7 @@
 import subprocess, os, nomad, requests, json, time, telebot, httplib2, sys
 from datetime import datetime
 h = httplib2.Http(".cache")
-bot = telebot.TeleBot("5641565819:AAFS-GmkHOHXeK12TClRCZB_Gh8ZKRHBRQs")
+bot = telebot.TeleBot("TOKEN")
 LocalNomad = nomad.Nomad(host='localhost')
 Argument = sys.argv[1]
 def GetConfiguration():
