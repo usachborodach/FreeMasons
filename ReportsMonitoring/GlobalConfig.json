@@ -1,0 +1,317 @@
+[
+  {
+    "__DATACENTER__": "krasnoyarsk",
+    "__NODENAME__": "tvk1",
+    "__LOCALEMOIVADDRESS__": "192.168.254.99",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "НГ",
+      "НВ",
+      "ДКВ",
+      "КМП",
+      "ТК",
+      "ОД",
+      "ФК",
+      "ПН",
+      "НП",
+      "ЗО",
+      "СГНС",
+      "ОДВ"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "10.11.14.99"
+  },
+  {
+    "__DATACENTER__": "bataysk",
+    "__NODENAME__": "arnv1",
+    "__LOCALEMOIVADDRESS__": "172.30.17.1",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "НГ",
+      "НВ",
+      "ДКВ",
+      "КМП",
+      "ТК",
+      "ОД",
+      "ФК",
+      "ПН",
+      "НП",
+      "ЗО",
+      "СГНС",
+      "ОДВ",
+      "Э"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.17.1"
+  },
+  {
+    "__DATACENTER__": "spb",
+    "__NODENAME__": "fake1",
+    "__LOCALEMOIVADDRESS__": "192.168.254.99",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "НГ",
+      "НВ",
+      "ДКВ",
+      "КМП",
+      "ОД",
+      "ФК",
+      "ПН",
+      "НП",
+      "ЗО",
+      "СГНС",
+      "ОДВ"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.18.99"
+  },
+  {
+    "__DATACENTER__": "vhodnaya",
+    "__NODENAME__": "fake1",
+    "__LOCALEMOIVADDRESS__": "192.168.254.99",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "НГ",
+      "НВ",
+      "ДКВ",
+      "КМП",
+      "ОД",
+      "ФК",
+      "ПН",
+      "НП",
+      "ЗО",
+      "СГНС",
+      "ОДВ"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.19.99"
+  },
+  {
+    "__DATACENTER__": "habr",
+    "__NODENAME__": "fake2",
+    "__LOCALEMOIVADDRESS__": "192.168.254.99",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "НГ",
+      "НВ",
+      "ДКВ",
+      "КМП",
+      "ОД",
+      "ФК",
+      "ПН",
+      "НП",
+      "ЗО",
+      "СГНС",
+      "ОДВ"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.20.99"
+  },
+  {
+    "__DATACENTER__": "chelyabinsk",
+    "__NODENAME__": "fake1",
+    "__LOCALEMOIVADDRESS__": "192.168.254.99",
+    "__HOSTADDRESS__": "10.11.21.141",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "НГ",
+      "НВ",
+      "ДКВ",
+      "КМП",
+      "ТК",
+      "ОД",
+      "ФК",
+      "ПН",
+      "НП",
+      "ЗО",
+      "ОДВ"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "10.11.21.99"
+  },
+  {
+    "__DATACENTER__": "oreh",
+    "__NODENAME__": "fake1",
+    "__LOCALEMOIVADDRESS__": "192.168.254.99",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "НГ",
+      "НВ",
+      "ДКВ",
+      "КМП",
+      "ТК",
+      "ОД",
+      "ФК",
+      "ПН",
+      "НП",
+      "ЗО",
+      "СГНС",
+      "ОДВ"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.22.99"
+  },
+  {
+    "__DATACENTER__": "zelecino",
+    "__NODENAME__": "tvk1",
+    "__LOCALEMOIVADDRESS__": "192.168.254.1",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "ТК",
+      "ФК"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.23.1"
+  },
+  {
+    "__DATACENTER__": "komsomolsk",
+    "__NODENAME__": "tvk1",
+    "__LOCALEMOIVADDRESS__": "192.168.254.99",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "ТК",
+      "ФК"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.24.99"
+  },
+  {
+    "__DATACENTER__": "smolensk",
+    "__NODENAME__": "tvk1",
+    "__LOCALEMOIVADDRESS__": "192.168.254.99",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "ТК",
+      "ФК"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.29.99"
+  },
+  {
+    "__DATACENTER__": "kurbakinskaya",
+    "__NODENAME__": "tvk1",
+    "__LOCALEMOIVADDRESS__": "192.168.254.99",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "ТК",
+      "ФК"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.30.99"
+  },
+  {
+    "__DATACENTER__": "murmansk",
+    "__NODENAME__": "tvk1",
+    "__LOCALEMOIVADDRESS__": "192.168.254.99",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "ТК",
+      "ФК"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "10.11.31.99"
+  },
+  {
+    "__DATACENTER__": "ekaterinburg",
+    "__NODENAME__": "fake2",
+    "__LOCALEMOIVADDRESS__": "172.30.32.1",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "НГ",
+      "НВ",
+      "ДКВ",
+      "КМП",
+      "ТК",
+      "ОД",
+      "ФК",
+      "ПН",
+      "НП",
+      "ЗО",
+      "СГНС",
+      "ОДВ"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.32.1"
+  },
+  {
+    "__DATACENTER__": "inskaya",
+    "__NODENAME__": "fake1",
+    "__LOCALEMOIVADDRESS__": "172.30.33.1",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "НГ",
+      "НВ",
+      "ДКВ",
+      "КМП",
+      "ТК",
+      "ОД",
+      "ФК",
+      "ПН",
+      "НП",
+      "ЗО",
+      "СГНС",
+      "ОДВ"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.33.1"
+  },
+  {
+    "__DATACENTER__": "kinel",
+    "__NODENAME__": "fake1",
+    "__LOCALEMOIVADDRESS__": "172.30.34.1",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "НГ",
+      "НВ",
+      "ДКВ",
+      "КМП",
+      "ТК",
+      "ОД",
+      "ФК",
+      "ПН",
+      "НП",
+      "ЗО",
+      "СГНС",
+      "ОДВ"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.34.1"
+  },
+  {
+    "__DATACENTER__": "losta",
+    "__NODENAME__": "fake1",
+    "__LOCALEMOIVADDRESS__": "172.30.35.1",
+    "__HOSTADDRESS__": "0.0.0.0",
+    "__PORT__": "5001",
+    "__REPORTS__": [
+      "АРНВ",
+      "НГ",
+      "НВ",
+      "ДКВ",
+      "КМП",
+      "ТК",
+      "ОД",
+      "ФК",
+      "ПН",
+      "НП",
+      "ЗО",
+      "СГНС",
+      "ОДВ"
+    ],
+    "__EXTERNALEMOIVADDRESS__": "172.30.35.1"
+  }
+]

@@ -1,0 +1,16 @@
+---
+- name: UploadToLinuxDeploymentRepos
+  hosts: krasnoyarsk_emoiv smol_mihi kurb_mihi murmansk_mihi
+  become: yes
+  tasks:
+  # - name: Create directory
+    # file:
+      # path: /mnt/Disk_1/deployment/filesharepath/tools/
+      # state: directory
+  - name: Copy artifact
+    copy:
+     src: '/tmp/SecurityMonitoring/SecurityChannelListener.zip'
+     dest: '/mnt/Disk_1/deployment/filesharepath/tools/'
+     owner: root
+     group: root
+     mode: '1777'

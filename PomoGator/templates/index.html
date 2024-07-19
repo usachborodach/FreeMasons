@@ -1,0 +1,65 @@
+{% macro PlaceButton(Action, IpAddress) %}
+	<td>
+		<form action="/{{ Action }}/{{ IpAddress }}" method="POST">
+			<input type="submit" value="{{ Action }}">
+		</form>
+	</td>
+{% endmacro %}
+
+
+{% macro PlaceObjectContent(ObjectContent) %}
+	<table>
+		{% for Node, Ip in ObjectContent.items() %}
+			<tr>
+				<td>
+					{{ Node }}
+				</td>
+				<td>
+					{{ Ip }}
+				</td>
+				{{ PlaceButton("ipmi", Ip ) }}	
+				{{ PlaceButton("ping", Ip ) }}	
+				{{ PlaceButton("ssh", Ip ) }}
+				{{ PlaceButton("putty", Ip ) }}	
+				{{ PlaceButton("rdp", Ip ) }}	
+				{{ PlaceButton("nomad", Ip ) }}	
+				{{ PlaceButton("consul", Ip ) }}	
+				{{ PlaceButton("logviewer", Ip ) }}	
+				{{ PlaceButton("filebrowser", Ip ) }}	
+				{{ PlaceButton("hardmon", Ip ) }}	
+				{{ PlaceButton("fieldmon", Ip ) }}	
+			</tr>
+		{% endfor %}
+	</table>
+{% endmacro %}
+
+
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+
+<body>
+	{% for ObjectName, ObjectContent in Data.items() %}
+		<button type="button" class="collapsible"> {{ ObjectName }} </button>
+		<div class="content">
+				{{ PlaceObjectContent(ObjectContent) }}
+		</div>
+	{% endfor %}
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+		
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.display === "block") {
+			  content.style.display = "none";
+			} else {
+			  content.style.display = "block";
+			}
+		  });
+		}
+	</script>
+</body>

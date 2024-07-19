@@ -1,0 +1,1082 @@
+[
+  {
+    "railOCRReportId": "00000000-0000-0000-0000-000000000000",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 1,
+      "name": "Густафьево"
+    },
+    "id": 354527,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 1,
+    "startedTime": "2024-04-23T14:00:45.718+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 2,
+    "trainTypeDesc": "Пассажирский",
+    "trainTypeShortDesc": "П",
+    "wagonsCount": 15,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "43c20b43-c8e7-4ec7-a0cb-7b05f2dadc1a",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 3,
+      "name": "Новокиевский"
+    },
+    "id": 354526,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 0,
+    "startedTime": "2024-04-23T13:57:00.446+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 4,
+    "trainTypeDesc": "Пригородный электропоезд",
+    "trainTypeShortDesc": "Э",
+    "wagonsCount": 4,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "1e9316e7-86e8-495d-b251-735ceb8f45ab",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 2,
+      "name": "Жатва"
+    },
+    "id": 354525,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T13:39:11.857+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8647 033 0764",
+    "trainNumber": "9753",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 85,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "72bbf7a9-3025-4a0e-a1ab-cad32fb305d4",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354524,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T13:30:09.181+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8000 712 9300",
+    "trainNumber": "2656",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 72,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "21a3d0f4-50e5-4cb3-bc3d-e5009dd8b0cc",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 3,
+      "name": "Новокиевский"
+    },
+    "id": 354523,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T13:28:41.427+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "7954 594 9329",
+    "trainNumber": "2208",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 68,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "4869f6e5-c264-46a8-a8b5-060f6b22230b",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 2,
+      "name": "Жатва"
+    },
+    "id": 354522,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T13:27:06.805+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8400 293 0764",
+    "trainNumber": "9625",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 87,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "00000000-0000-0000-0000-000000000000",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 1,
+      "name": "Густафьево"
+    },
+    "id": 354521,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T13:25:21.332+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 2,
+    "trainTypeDesc": "Пассажирский",
+    "trainTypeShortDesc": "П",
+    "wagonsCount": 12,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "00000000-0000-0000-0000-000000000000",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 1,
+      "name": "Густафьево"
+    },
+    "id": 354520,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 1,
+    "startedTime": "2024-04-23T13:15:27.769+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 2,
+    "trainTypeDesc": "Пассажирский",
+    "trainTypeShortDesc": "П",
+    "wagonsCount": 9,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "c1b285b8-7c96-449c-b1cd-002cbcd5c8bd",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 2,
+      "name": "Жатва"
+    },
+    "id": 354519,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 0,
+    "startedTime": "2024-04-23T13:08:28.281+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 4,
+    "trainTypeDesc": "Пригородный электропоезд",
+    "trainTypeShortDesc": "Э",
+    "wagonsCount": 4,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "d6469bb5-8026-48cb-aa92-bb1fcd8bc117",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 3,
+      "name": "Новокиевский"
+    },
+    "id": 354518,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 0,
+    "startedTime": "2024-04-23T13:08:21.298+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 4,
+    "trainTypeDesc": "Пригородный электропоезд",
+    "trainTypeShortDesc": "Э",
+    "wagonsCount": 1,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "00000000-0000-0000-0000-000000000000",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354517,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 1,
+    "startedTime": "2024-04-23T13:08:02.334+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 2,
+    "trainTypeDesc": "Пассажирский",
+    "trainTypeShortDesc": "П",
+    "wagonsCount": 15,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "162d7ebb-952e-4ff5-b52e-13b163de821b",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 3,
+      "name": "Новокиевский"
+    },
+    "id": 354516,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T13:03:31.659+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "7904 325 8302",
+    "trainNumber": "2854",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 74,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "ca8235c5-5c6d-4362-afea-261edf7329ad",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 2,
+      "name": "Жатва"
+    },
+    "id": 354515,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T12:52:24.446+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8630 822 0185",
+    "trainNumber": "9717",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 84,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "19b32e75-cbb5-44e9-8a42-6e606f8c308f",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 3,
+      "name": "Новокиевский"
+    },
+    "id": 354514,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T12:49:09.459+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "2306 170 9822",
+    "trainNumber": "1254",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 58,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "cd11aad1-29fd-476b-8ac0-7ff209cb1962",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354513,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T12:45:32.873+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "6272 481 9859",
+    "trainNumber": "9334",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 100,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "c0744cdd-b3ef-4802-8eef-80a830f3c921",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354512,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T12:35:53.174+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8000 571 8500",
+    "trainNumber": "2834",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 65,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "6f1956a4-1651-4e60-b690-aad82940aa22",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354511,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 4,
+    "startedTime": "2024-04-23T12:25:57.711+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8268 841 8302",
+    "trainNumber": "9242",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 163,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "e83734ba-6f87-44d7-8fff-5714bd41eedb",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 2,
+      "name": "Жатва"
+    },
+    "id": 354510,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T12:20:08.915+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8630 542 5331",
+    "trainNumber": "2453",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 71,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "af73c0a9-19a0-40bb-8f7e-931e8dcdfbc0",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354509,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T12:12:27.969+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8200 566 8302",
+    "trainNumber": "2838",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 75,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "28759ed1-44c0-4d29-9220-0940d8514e64",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 1,
+      "name": "Густафьево"
+    },
+    "id": 354508,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 0,
+    "startedTime": "2024-04-23T12:05:27.005+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 4,
+    "trainTypeDesc": "Пригородный электропоезд",
+    "trainTypeShortDesc": "Э",
+    "wagonsCount": 4,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "0f0d9e4c-615f-4a3a-952e-ba81e74a93eb",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 2,
+      "name": "Жатва"
+    },
+    "id": 354507,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T11:56:30.243+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8630 760 0185",
+    "trainNumber": "9779",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 85,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "bb3bd967-e49f-4534-be7d-5e4fd5592659",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 3,
+      "name": "Новокиевский"
+    },
+    "id": 354506,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 0,
+    "startedTime": "2024-04-23T11:54:35.386+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 4,
+    "trainTypeDesc": "Пригородный электропоезд",
+    "trainTypeShortDesc": "Э",
+    "wagonsCount": 6,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "00000000-0000-0000-0000-000000000000",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 3,
+      "name": "Новокиевский"
+    },
+    "id": 354505,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 1,
+    "startedTime": "2024-04-23T11:43:50.379+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 2,
+    "trainTypeDesc": "Пассажирский",
+    "trainTypeShortDesc": "П",
+    "wagonsCount": 10,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "39edd6c5-1181-4a00-b6cc-a0bee6196346",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 2,
+      "name": "Жатва"
+    },
+    "id": 354504,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T11:38:30.056+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8648 190 8142",
+    "trainNumber": "2419",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 67,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "5161b8ef-94b1-45c5-beec-78294c74af1b",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 1,
+      "name": "Густафьево"
+    },
+    "id": 354503,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 4,
+    "startedTime": "2024-04-23T11:18:46.266+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8501 125 5109",
+    "trainNumber": "9205",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 134,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "1e6bbe09-acda-4949-837a-6917b95e2bc4",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 2,
+      "name": "Жатва"
+    },
+    "id": 354502,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T11:17:31.385+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8400 291 0764",
+    "trainNumber": "9775",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 95,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "00000000-0000-0000-0000-000000000000",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 3,
+      "name": "Новокиевский"
+    },
+    "id": 354501,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 1,
+    "startedTime": "2024-04-23T11:15:15.015+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 2,
+    "trainTypeDesc": "Пассажирский",
+    "trainTypeShortDesc": "П",
+    "wagonsCount": 10,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "104ebabb-8550-4ed0-99fe-efdafb603eaa",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354500,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 0,
+    "startedTime": "2024-04-23T11:10:19.172+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 0,
+    "trainTypeDesc": "Неопределенный",
+    "trainTypeShortDesc": "-",
+    "wagonsCount": 1,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "f30db124-fc26-421b-ac5d-b7e0b86e0873",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 1,
+      "name": "Густафьево"
+    },
+    "id": 354499,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T11:07:06.705+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8500 140 0764",
+    "trainNumber": "9713",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 81,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "00000000-0000-0000-0000-000000000000",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 3,
+      "name": "Новокиевский"
+    },
+    "id": 354498,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 1,
+    "startedTime": "2024-04-23T11:02:50.813+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 2,
+    "trainTypeDesc": "Пассажирский",
+    "trainTypeShortDesc": "П",
+    "wagonsCount": 12,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "c2d9a9cd-f9c6-4b36-8e94-e3d9cd2842d5",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 1,
+      "name": "Густафьево"
+    },
+    "id": 354497,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T10:57:36.056+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "9806 532 0600",
+    "trainNumber": "1355",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 78,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "81f78cc0-9c7d-40db-9a0b-708849a8e619",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 2,
+      "name": "Жатва"
+    },
+    "id": 354496,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T10:51:58.318+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "8641 736 9847",
+    "trainNumber": "2795",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 66,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "f918b4c9-57bb-40b8-91cf-a2fec07c055f",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 1,
+      "name": "Густафьево"
+    },
+    "id": 354495,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T10:51:19.03+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "9859 370 2306",
+    "trainNumber": "1093",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 39,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "af52f747-38e8-4478-8d0c-a69d68f138b1",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354494,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T10:51:07.166+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "0763 468 8700",
+    "trainNumber": "9334",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 94,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "d69fbee2-0f9f-4e8a-93ba-4c4a4a3290a3",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354493,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 0,
+    "startedTime": "2024-04-23T10:49:43.875+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 0,
+    "trainTypeDesc": "Неопределенный",
+    "trainTypeShortDesc": "-",
+    "wagonsCount": 1,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "77dd73d2-a8a3-48f3-b004-fbea27e721ef",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354492,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 0,
+    "startedTime": "2024-04-23T10:46:23.552+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 0,
+    "trainTypeDesc": "Неопределенный",
+    "trainTypeShortDesc": "-",
+    "wagonsCount": 1,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "c1d2c258-7cc2-4b89-a83e-f3d6c217907a",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354491,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T10:41:15.751+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "5426 001 8810",
+    "trainNumber": "8502",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 41,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "4e89ceb2-cdc6-460f-8b8d-9502ab3dd007",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354490,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 0,
+    "startedTime": "2024-04-23T10:38:27.74+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "∘∘∘∘ ∘∘∘ ∘∘∘∘",
+    "trainNumber": "∘∘∘∘",
+    "trainType": 0,
+    "trainTypeDesc": "Неопределенный",
+    "trainTypeShortDesc": "-",
+    "wagonsCount": 1,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "5580bf9c-8c99-4995-8d34-de488260265f",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354489,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T10:24:16.786+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "1943 030 8533",
+    "trainNumber": "1368",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 40,
+    "direction": 1
+  },
+  {
+    "railOCRReportId": "55443e5a-3b7d-49a6-87c2-71823aea2146",
+    "controlPoint": {
+      "$type": "CvLab.Common.Domain.ControlPoint, CvLab.Common",
+      "directions": [
+        ""
+      ],
+      "controlPointNumber": 4,
+      "name": "Мариановка"
+    },
+    "id": 354488,
+    "isApproved": false,
+    "isAttentionRequired": false,
+    "isCommented": false,
+    "locomotivesCount": 2,
+    "startedTime": "2024-04-23T10:16:43.149+03:00",
+    "state": 2,
+    "supervisor": null,
+    "trainDuplicateId": -1,
+    "trainIndex": "5254 002 8312",
+    "trainNumber": "2832",
+    "trainType": 1,
+    "trainTypeDesc": "Грузовой",
+    "trainTypeShortDesc": "Г",
+    "wagonsCount": 82,
+    "direction": 1
+  }
+]

@@ -1,0 +1,13 @@
+---
+- name: UploadToChelDeploymentRepos
+  hosts: chel_emoiv
+  # hosts: omsk_emoiv
+  tasks:
+  # - name: Create directory structure
+    # ansible.windows.win_file:
+      # path: D:\deployment\filesharepath\tools
+      # state: directory  
+  - name: Copy a single file
+    ansible.windows.win_copy:
+      src: /tmp/SecurityMonitoring/SecurityChannelListener.zip
+      dest: D:\deployment\filesharepath\tools\SecurityChannelListener.zip  

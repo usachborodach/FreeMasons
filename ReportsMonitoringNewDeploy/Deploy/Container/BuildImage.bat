@@ -1,0 +1,7 @@
+cd C:\ShuraRepo\Development\ReportsMonitoring\reports_monitoring_container
+del reports_monitoring_container.tar.gz
+docker image rm reports_monitoring_container
+docker image build -t reports_monitoring_container .
+docker image save -o reports_monitoring_container reports_monitoring_container
+tar -cvzf reports_monitoring_container.tar.gz reports_monitoring_container
+del reports_monitoring_container

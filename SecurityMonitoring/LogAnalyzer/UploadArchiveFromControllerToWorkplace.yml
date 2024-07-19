@@ -1,0 +1,15 @@
+#powershell: Install-Module -Name Pscx -RequiredVersion 3.3.2 -AllowClobber
+---
+- name: UploadArchiveFromControllerToWorkplace
+  hosts: gorbov_office
+  become: false
+  tasks:
+    - name: Copy folder contents recursively
+      ansible.windows.win_copy:
+        src: /tmp/antivorovator/files.zip
+        dest: C:\tmp\antivorovator\files.zip
+    - name: Decompress files
+      community.windows.win_unzip:
+        src: C:\tmp\antivorovator\files.zip
+        dest: C:\tmp\antivorovator\
+        delete_archive: yes

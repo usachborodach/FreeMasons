@@ -1,0 +1,121 @@
+[
+  {
+    "issueCategory": 30,
+    "issueName": "Межосевые расстояния",
+    "processingTimeAverageMinutes": 0.9748428523752491,
+    "processingTimeMinMinutes": 0.9748425033333333,
+    "processingTimeMaxMinutes": 0.9748431783333333
+  },
+  {
+    "issueCategory": 11,
+    "issueName": "НВ",
+    "processingTimeAverageMinutes": 1.7376021917063493,
+    "processingTimeMinMinutes": 1.735713745,
+    "processingTimeMaxMinutes": 1.7395167683333332
+  },
+  {
+    "issueCategory": 21,
+    "issueName": "НО",
+    "processingTimeAverageMinutes": 1.8295428848214281,
+    "processingTimeMinMinutes": 1.8211775533333334,
+    "processingTimeMaxMinutes": 1.8361491666666667
+  },
+  {
+    "issueCategory": 22,
+    "issueName": "АРНВ",
+    "processingTimeAverageMinutes": 1.089787368125,
+    "processingTimeMinMinutes": 1.089787255,
+    "processingTimeMaxMinutes": 1.0897874916666668
+  },
+  {
+    "issueCategory": 16,
+    "issueName": "ЗО",
+    "processingTimeAverageMinutes": 2.2514731080416666,
+    "processingTimeMinMinutes": 1.585218815,
+    "processingTimeMaxMinutes": 2.759956485
+  },
+  {
+    "issueCategory": 17,
+    "issueName": "СГНС",
+    "processingTimeAverageMinutes": 2.131616672041666,
+    "processingTimeMinMinutes": 1.5855980316666667,
+    "processingTimeMaxMinutes": 2.738689315
+  },
+  {
+    "issueCategory": 12,
+    "issueName": "ПН",
+    "processingTimeAverageMinutes": 1.6899076959947905,
+    "processingTimeMinMinutes": 1.6849219283333334,
+    "processingTimeMaxMinutes": 1.693712505
+  },
+  {
+    "issueCategory": 13,
+    "issueName": "НП",
+    "processingTimeAverageMinutes": 1.829957917791667,
+    "processingTimeMinMinutes": 1.82210675,
+    "processingTimeMaxMinutes": 1.836154535
+  },
+  {
+    "issueCategory": 15,
+    "issueName": "ФК",
+    "processingTimeAverageMinutes": 1.8382258849166662,
+    "processingTimeMinMinutes": 1.8200209666666667,
+    "processingTimeMaxMinutes": 1.8557696633333334
+  },
+  {
+    "issueCategory": 4,
+    "issueName": "ДКВ",
+    "processingTimeAverageMinutes": 2.275487247729167,
+    "processingTimeMinMinutes": 2.1594139616666665,
+    "processingTimeMaxMinutes": 2.4428232133333334
+  },
+  {
+    "issueCategory": 3,
+    "issueName": "ОД",
+    "processingTimeAverageMinutes": 2.277009199514767,
+    "processingTimeMinMinutes": 2.1596712316666666,
+    "processingTimeMaxMinutes": 2.44357691
+  },
+  {
+    "issueCategory": 1,
+    "issueName": "НГ",
+    "processingTimeAverageMinutes": 1.9269161281845235,
+    "processingTimeMinMinutes": 1.2632074783333334,
+    "processingTimeMaxMinutes": 2.4445359166666667
+  },
+  {
+    "issueCategory": 6,
+    "issueName": "КМП",
+    "processingTimeAverageMinutes": 1.9569831026356588,
+    "processingTimeMinMinutes": 1.1321606866666667,
+    "processingTimeMaxMinutes": 2.4445362833333335
+  },
+  {
+    "issueCategory": 18,
+    "issueName": "ОДВ",
+    "processingTimeAverageMinutes": 2.2736075148837207,
+    "processingTimeMinMinutes": 2.1615465483333334,
+    "processingTimeMaxMinutes": 2.4445363133333333
+  },
+  {
+    "issueCategory": 10,
+    "issueName": "КТИ",
+    "processingTimeAverageMinutes": 3.1463990549375005,
+    "processingTimeMinMinutes": 3.1462100466666665,
+    "processingTimeMaxMinutes": 3.1465826766666667
+  },
+  {
+    "issueCategory": 37,
+    "issueName": "ДКБ",
+    "processingTimeAverageMinutes": 3.253968824583333,
+    "processingTimeMinMinutes": 3.2531872783333333,
+    "processingTimeMaxMinutes": 3.25475591
+  },
+  {
+    "issueCategory": 8,
+    "issueName": "КТСМ",
+    "processingTimeAverageMinutes": 1.1933797119097223,
+    "processingTimeMinMinutes": 0.9777973366666667,
+    "processingTimeMaxMinutes": 2.91546797
+  }
+]

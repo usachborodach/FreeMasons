@@ -1,0 +1,11 @@
+---
+- name: FetchScriptFromWorkplace
+  # hosts: gorbov_home
+  hosts: gorbov_office
+  become: false
+  tasks:
+    - name: FetchFile
+      ansible.builtin.fetch:
+        src: 'C:\ShuraRepo\Production\SecurityMonitoring\SecurityChannelListener\SecurityChannelListener.py'
+        dest: "/tmp/SecurityMonitoring/SecurityChannelListener.py"
+        flat: yes

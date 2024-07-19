@@ -1,0 +1,13 @@
+---
+- name: DeleteOldLogsWin
+  hosts: StreamRecordAllGroup
+  become: yes
+  tasks:
+    - find:
+        paths: /mnt/Disk_1/CvLab/Common/Log/
+        patterns: "Antivorovator*"
+      register: find_results
+    - file:
+        path: "{{ item['path'] }}"
+        state: absent
+      with_items: "{{ find_results['files'] }}"

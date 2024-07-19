@@ -1,0 +1,28 @@
+--- 
+- name: Build
+  hosts: chel_lkps1
+  become: yes
+  tasks:
+  - name: ClearTempDirectory
+    ignore_errors: true
+    shell: |
+      rm /tmp/antivorovator/*
+  - name: CopyScriptToRemote
+    ansible.builtin.copy:
+      src: /tmp/SecurityMonitoring/SecurityChannelListener.py
+      dest: /tmp/SecurityMonitoring/SecurityChannelListener.py
+  - name: BuildArtifact
+    ignore_errors: true
+    shell: |
+      cd /tmp/SecurityMonitoring/
+      pyinstaller -F /tmp/SecurityMonitoring/SecurityChannelListener.py
+      rm /tmp/SecurityMonitoring/SecurityChannelListener.py
+  - name: FetchArtifactFromRemote
+    fetch:
+      src: /tmp/SecurityMonitoring/dist/SecurityChannelListener
+      dest: /tmp/SecurityMonitoring/
+      flat: yes  
+  - name: RemoveArifactFromRemote
+    ignore_errors: true
+    shell: |
+      rm /tmp/SecurityMonitoring/dist/SecurityChannelListener

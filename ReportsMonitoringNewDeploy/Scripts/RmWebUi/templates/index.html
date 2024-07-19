@@ -1,0 +1,49 @@
+{% macro TrainPrint(Train) %}
+	{% for Key, Value in Train.items() %}
+		
+		{% if Key == "id" %}
+			<td>
+				<a href="http://{{ Config.ExternalEmoivAddress }}/Train/{{Value}}" target="_blank">
+				  <div style="height:100%;width:100%">
+					{{Value}}
+				  </div>
+				</a>
+		    </td>
+		{% else %}
+			<td>
+				{{ Value }}
+			</td>
+		{% endif %}
+	{% endfor %}
+{% endmacro %}
+
+
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+	<label> {{ Config.Datacenter }} 
+		<form action="/" method="GET" target="_blank">
+			<input type="submit" value="OpenInNewTab">
+		</form>
+		<form action="/All" method="GET">
+			<input type="submit" value="All">
+		</form>
+		<form action="/OnlyTroublesCpSorted3h" method="GET">
+			<input type="submit" value="OnlyTroublesCpSorted3h">
+		</form>
+	</label>
+	<table>
+		<tr>
+			{% for Header in Data[0].keys() %}
+				<th> {{ Header }} </th>
+			{% endfor %}
+		</tr>
+		{% for Train in Data %}
+			<tr>
+				{{ TrainPrint(Train) }}
+			</tr>
+		{% endfor %}
+	</table>
+</body>

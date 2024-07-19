@@ -1,0 +1,46 @@
+:root {--dark: #292929; --light: #b8b8b8}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {background-color: var(--dark)}
+p {font-family: system-ui; font-size: 20px; color: var(--light);}
+label {font-family: system-ui; font-size: 20px; color: var(--light);}
+table {height: 18px; border: 1px solid black; border-collapse: collapse;}
+tr, th, td {vertical-align: top; font-family: system-ui; font-size: 20px; border: 1px solid black; color: var(--light)}
+input {font-size: 20px; background-color: var(--light); color:var(--dark)}
+button {font-size: 20px; background-color: var(--light); color:var(--dark)}
+form {display: inline}
+
+a:link {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

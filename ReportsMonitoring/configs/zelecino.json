@@ -1,0 +1,16 @@
+{
+  "Datacenter": "zelecino",
+  "ExternalEmoivAddress": "172.30.23.1",
+  "InfoProviderAddress": "192.168.254.1:50293",
+  "NumberOfTrainsForConciseReport": 100,
+  "ConciseReportIntervalMinutes": 1,
+  "TimeoutReadyMinutes": 30,
+  "DataPath": "/data/ReportsMonitoring/",
+  "LogPath": "/var/log/DataHarvester.log",
+  "СlearLog": true,
+  "DataPath": "/data/ReportsMonitoring/",
+  "СlearData": true,
+  "Host": "0.0.0.0",
+  "Port": "5001",
+  "Reports": ["АРНВ", "ТК", "ФК"]
+}

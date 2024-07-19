@@ -1,0 +1,31 @@
+<head>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+	<title>БыстроБорда</title>
+</head>
+<body>
+	<table>
+		<tr>
+			{% for Cell in Header %}
+				<th> {{ Cell }} </th>
+			{% endfor %}
+		</tr>
+			{% for Line in Table %}
+				<tr>
+					{% for Cell in Line %}
+						<td> 
+							{% if Cell.startswith('http') %}
+								<a href="{{ Cell }}" target="_blank">
+									<div style="height:100%;width:100%">
+									  	{{ Cell }}
+									</div>
+								</a>
+							{% else %}
+								{{ Cell }} 
+							{% endif %}
+						</td>
+					{% endfor %}
+				</tr>
+			{% endfor %}
+	</table>
+</body>
