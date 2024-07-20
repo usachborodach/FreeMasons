@@ -5,27 +5,22 @@
 </head>
 <body>
 	<table>
-		<tr>
-			{% for Cell in Header %}
-				<th> {{ Cell }} </th>
-			{% endfor %}
-		</tr>
-			{% for Line in Table %}
-				<tr>
-					{% for Cell in Line %}
-						<td> 
-							{% if Cell.startswith('http') %}
-								<a href="{{ Cell }}" target="_blank">
-									<div style="height:100%;width:100%">
-									  	{{ Cell }}
-									</div>
-								</a>
-							{% else %}
-								{{ Cell }} 
-							{% endif %}
-						</td>
-					{% endfor %}
-				</tr>
-			{% endfor %}
+		{% for Row in Table %}
+			<tr bgcolor="{{ Colors[loop.index0] }}">
+				{% for Key, Value in Row.items() %}
+					<td > 
+						{% if Key == "Object" %}
+							{{ Value }} 
+						{% else %}
+							<a href="{{ Value }}" target="_blank">
+								<div style="height:100%;width:100%">
+								  	{{ Key }}
+								</div>
+							</a>
+						{% endif %}
+					</td>
+				{% endfor %}
+			</tr>
+		{% endfor %}
 	</table>
 </body>

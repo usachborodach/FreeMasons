@@ -16,19 +16,19 @@ body {background-color: var(--dark)}
 p {font-family: system-ui; font-size: 20px; color: var(--light);}
 label {font-family: system-ui; font-size: 20px; color: var(--light);}
 table {height: 18px; border: 1px solid black; border-collapse: collapse;}
-tr, th, td {vertical-align: top; font-family: system-ui; font-size: 20px; border: 1px solid black; color: var(--light)}
+tr, th, td {padding: 5px; vertical-align: top; font-family: system-ui; font-size: 20px; border: 1px solid black; color: black}
 input {font-size: 20px; background-color: var(--light); color:var(--dark)}
 button {font-size: 20px; background-color: var(--light); color:var(--dark)}
 form {display: inline}
 
 a:link {
-  color: grey;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: grey;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }

@@ -1,3 +1,5 @@
+HostAddresses = {"localhost": "127.0.0.1", "vpn": "10.11.1.32:5003"}
+ChosenAddress = "vpn"
 import os
 from flask import Flask, render_template, request, send_from_directory
 app = Flask(__name__)
@@ -21,29 +23,24 @@ Objects = {
     "kinel": "172.30.34.1",
     "losta": "172.30.35.1"}
 Systems = {
-    "Pto": ":80",
-    "Nomad": ":4646",
-    "Consul": ":8500",
-    "RabbitMq": ":15672",
-    "InfoProviderSwagger": ":50293/swagger",
-    "DocumentServiceSwagger": ":7009/swagger"}
-Header = ["Object"]
-for System in Systems.keys():
-    Header.append(System)
+    "🚂 PtoWeb": ":80",
+    "🐫 Nomad": ":4646",
+    "👔 Consul": ":8500",
+    "🐰 RabbitMq": ":15672",
+    "👨🏻‍💻 InfoProv": ":50293/swagger",
+    "📝 DocServ": ":7009/swagger"}
+Colors = ["#9c27b0", "#4caf50", "#8bc34a", "#ff9800", "#f44336", "#03a9f4", "#009688", "#673ab7", "#00bcd4", "#cddc39", "#ff5722", "#ffc107", "#3f51b5", "#ffeb3b", "#e81e63", "#2196f3", "#4caf50", "#8bc34a"]
 Table = list()
 for Object, Address in Objects.items():
-    Line = list()
-    Line.append(Object)
+    Row = dict()
+    Row["Object"] = Object
     for System, Port in Systems.items():
-        Line.append("http://"+Address+Port)
-    Table.append(Line)
-
-
-
+        Row[System] = "http://"+Address+Port
+    Table.append(Row)
 @app.route('/favicon.ico')
 def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
 @app.route("/", methods=["GET"])
 def IndexPage():
-    return render_template("index.html", Header=Header, Table=Table)
-app.run(debug=True, host="10.11.1.32", port=5003)
+    return render_template("index.html", Table=Table, Colors=Colors)
+app.run(debug=True, host=HostAddresses[ChosenAddress], port=5003)
