@@ -22,7 +22,7 @@ Addresses = {
     "inskaya": "172.30.33.1",
     "kinel": "172.30.34.1",
     "losta": "172.30.35.1"}
-Monkeys ={
+Monkeys = {
     "krasnoyarsk": "empty",
     "taman": "empty",
     "novorossiysk": "empty",
@@ -40,8 +40,7 @@ Monkeys ={
     "ekaterinburg": "http://172.30.32.72:5001",
     "inskaya": "http://172.30.33.40:5001",
     "kinel": "http://172.30.34.21:5001",
-    "losta": "http://172.30.35.40:5001"
-}
+    "losta": "http://172.30.35.40:5001"}
 Systems = {
     "🚂 PtoWeb": ":80",
     "🐫 Nomad": ":4646",
