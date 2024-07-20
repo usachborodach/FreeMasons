@@ -4,9 +4,9 @@ from datetime import datetime, timedelta
 StartTime = datetime.now()
 Config = json.loads(base64.b64decode(json.loads((requests.get(f"http://localhost:8500/v1/kv/tools/ReportsMonitoring")).text)[0]["Value"]).decode("utf-8"))
 
-Client = MongoClient("10.31.1.123", 27017)
-Db = Client.ReportsMonitoring
-Collection = Db.IssueReports
+# Client = MongoClient("10.31.1.123", 27017)
+# Db = Client.ReportsMonitoring
+# Collection = Db.IssueReports
 
 if os.path.exists(Config["DataPath"]) == False:
     os.makedirs(Config["DataPath"])
@@ -55,7 +55,7 @@ def DumpIssuesToDatabase(Data):
                 Issues["Issues"].append(Key)
         try:
             Log(str(Data["id"])+" try to dump in remote database")
-            Collection.insert_one(Issues).inserted_id
+            # Collection.insert_one(Issues).inserted_id
         except Exception as ExceptionText:
             Log(str(ExceptionText))
         else:  

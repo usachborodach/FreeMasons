@@ -4,7 +4,9 @@ import json, os, base64, requests
 from flask import render_template, request
 Config = json.loads(base64.b64decode(json.loads((requests.get("http://localhost:8500/v1/kv/tools/ReportsMonitoring")).text)[0]["Value"]).decode("utf-8"))
 app = Flask(__name__)
-
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
 @app.route("/All", methods=["GET"])
 def All():
     Data = list()
@@ -25,7 +27,7 @@ def OnlyTroublesCpSorted3h():
             Data.append(TrainData)
     Data = sorted(Data, key=lambda TrainData: TrainData["КТ"])
     if len(Data) == 0:
-        return render_template("index.html", Data=[{"✔️ Всё ок": "Проблем нет"}], Datacenter=Config["Datacenter"])
+        return render_template("index.html", Data=[{"✔️ Всё ок": "Проблем нет"}], Config=Config)
     return render_template("index.html", Data=Data, Config=Config)
 
 @app.route("/", methods=["GET"])
