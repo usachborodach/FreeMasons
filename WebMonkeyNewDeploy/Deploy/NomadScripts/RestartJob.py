@@ -1,7 +1,7 @@
-AllObjects = ["krasnoyarsk", "bataysk", "spb", "vhodnaya", "habr", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
+ChosenObjectMode = False
 ChosenObjectList = ["chelyabinsk"]
-ChosenObjectMode = True
 
+AllObjects = ["krasnoyarsk", "bataysk", "spb", "vhodnaya", "habr", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
 if ChosenObjectMode == True:
    ListToRestart = ChosenObjectList
 else:

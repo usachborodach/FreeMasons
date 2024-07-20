@@ -1,7 +1,7 @@
-AllObjects = ["krasnoyarsk", "bataysk", "spb", "vhodnaya", "habr", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
+ChosenObjectMode = False
 ChosenObjectList = ["chelyabinsk"]
-ChosenObjectMode = True
 
+AllObjects = ["krasnoyarsk", "bataysk", "spb", "vhodnaya", "habr", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
 if ChosenObjectMode == True:
    ListToUpload = ChosenObjectList
 else:
@@ -29,7 +29,7 @@ def MainFunction(Object):
     except Exception as ExceptionText:
         Log(Object + str(ExceptionText) + ". Duration: "  + str(datetime.datetime.now()-StartTime))
     else:
-        Log(" " + Object + " artifacts uploaded successfully. Duration: " + str(datetime.datetime.now()-StartTime))
+        Log(" " + Object + "artifacts uploaded successfully. Duration: " + str(datetime.datetime.now()-StartTime))
 
 LogFilePath = os.path.join(BaseDir, "UploadArtifacts.log")
 file = open(LogFilePath, "w")
