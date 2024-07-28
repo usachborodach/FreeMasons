@@ -42,7 +42,7 @@ Monkeys = {
     "kinel": "http://172.30.34.21:5001",
     "losta": "http://172.30.35.40:5001"}
 Systems = {
-    "🚂 PtoWeb": ":80",
+    "🚂 ArmPto": ":80",
     "🐫 Nomad": ":4646",
     "👔 Consul": ":8500",
     "🐰 RabbitMq": ":15672",
