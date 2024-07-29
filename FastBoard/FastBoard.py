@@ -26,7 +26,7 @@ for Object in Data:
     Row["ObjectName"] = Object["ObjectName"]
     Row ["🐵 Monkey"] = Object["MonkeyAddress"]
     for System, Port in Systems.items():
-        Row[System] = "http://"+Object["EmoivAddress"]
+        Row[System] = "http://"+Object["EmoivAddress"]+Port
     Sheet.append(Row)
 @app.route('/favicon.ico')
 def favicon():
