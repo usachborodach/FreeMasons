@@ -9,7 +9,7 @@
 			<tr bgcolor="{{ Colors[loop.index0] }}">
 				{% for Key, Value in Row.items() %}
 					<td > 
-						{% if Key == "Object" %}
+						{% if Key == "ObjectName" or Key == "ObjectNumber"%}
 							{{ Value }} 
 						{% else %}
 							<a href="{{ Value }}" target="_blank">
