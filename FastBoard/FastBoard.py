@@ -1,5 +1,9 @@
-HostAddresses = {"localhost": "127.0.0.1", "vpn": "10.11.1.32:5003"}
-ChosenAddress = "vpn"
+LocalMode = True
+
+if LocalMode:
+    HostAddress = "127.0.0.1"
+else:    
+    HostAddress = "10.11.1.32"
 import os, json
 from flask import Flask, render_template, request, send_from_directory
 app = Flask(__name__)
@@ -14,6 +18,7 @@ Systems = {
     "👨🏻‍💻 InfoProv": ":50293/swagger",
     "📝 DocServ": ":7009/swagger"}
 Colors = ["#9c27b0", "#4caf50", "#8bc34a", "#ff9800", "#f44336", "#03a9f4", "#009688", "#673ab7", "#00bcd4", "#cddc39", "#ff5722", "#ffc107", "#3f51b5", "#ffeb3b", "#e81e63", "#2196f3", "#4caf50", "#8bc34a"]
+BackupColors = ["#7b3d00", "#224b12", "#395511", "#8d281e", "#28471f", "#383d3c", "#4e102d", "#8d281e", "#706e0c", "#481d32", "#813709", "#784b04", "#481d32", "#4e102d", "#383d3c", "#224b12", "#28471f", "#395511"]
 Sheet = list()
 for Object in Data:
     Row = dict()
@@ -29,4 +34,4 @@ def favicon():
 @app.route("/", methods=["GET"])
 def IndexPage():
     return render_template("index.html", Sheet=Sheet, Colors=Colors)
-app.run(debug=True, host=HostAddresses[ChosenAddress], port=5003)
+app.run(debug=True, host=HostAddress, port=5003)
