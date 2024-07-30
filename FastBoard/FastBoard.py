@@ -1,4 +1,4 @@
-LocalMode = True
+LocalMode = False
 
 if LocalMode:
     HostAddress = "127.0.0.1"
