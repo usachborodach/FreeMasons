@@ -1,0 +1,138 @@
+{
+  "error": null,
+  "errorCode": 0,
+  "isSuccessful": true,
+  "result": {
+    "trainDirection": 1,
+    "trucks": [
+      {
+        "caption": "Тележка 1",
+        "blocks": [
+          {
+            "caption": "Тележка 1 / TvIIFrictionWedge",
+            "sideC": {
+              "name": "TvIIFrictionWedge",
+              "alarmLevel": 4,
+              "description": "Right 0 MeasurementError",
+              "image": "FrictionWedge/5/3492/9767958d-e8a7-46e4-9ef3-679afe702b2a.jpg",
+              "multipartImage": [
+                "FrictionWedge/5/3492/9767958d-e8a7-46e4-9ef3-679afe702b2a.jpg",
+                "FrictionWedge/5/3492/c17fe4ca-140c-4f49-91d6-f270434369c3.jpg"
+              ],
+              "isMultipartImage": true,
+              "technovisorItemType": 4,
+              "relativePosition": 1,
+              "groupIdentity": 0
+            },
+            "sideN": {
+              "name": "TvIIFrictionWedge",
+              "alarmLevel": 4,
+              "description": "Left 0 MeasurementError",
+              "image": "FrictionWedge/5/3492/27b0f86e-fc8a-4895-a780-db31de6e5fe3.jpg",
+              "multipartImage": [
+                "FrictionWedge/5/3492/27b0f86e-fc8a-4895-a780-db31de6e5fe3.jpg"
+              ],
+              "isMultipartImage": false,
+              "technovisorItemType": 4,
+              "relativePosition": 2,
+              "groupIdentity": 0
+            },
+            "index": 0
+          }
+        ]
+      },
+      {
+        "caption": "Тележка 2",
+        "blocks": [
+          {
+            "caption": "Тележка 2 / TvIIFrictionWedge",
+            "sideC": {
+              "name": "TvIIFrictionWedge",
+              "alarmLevel": 4,
+              "description": "Right 1 MeasurementError",
+              "image": "FrictionWedge/5/3492/699a2219-6411-437e-b3e9-2eee3ffdbcc3.jpg",
+              "multipartImage": [
+                "FrictionWedge/5/3492/699a2219-6411-437e-b3e9-2eee3ffdbcc3.jpg",
+                "FrictionWedge/5/3492/54855f5e-cf06-4c1d-a57e-8734c638533b.jpg"
+              ],
+              "isMultipartImage": true,
+              "technovisorItemType": 4,
+              "relativePosition": 1,
+              "groupIdentity": 1
+            },
+            "sideN": {
+              "name": "TvIIFrictionWedge",
+              "alarmLevel": 4,
+              "description": "Left 1 MeasurementError",
+              "image": "FrictionWedge/5/3492/d69b4c39-5b6f-4d15-bf47-dcd31863e53d.jpg",
+              "multipartImage": [
+                "FrictionWedge/5/3492/d69b4c39-5b6f-4d15-bf47-dcd31863e53d.jpg"
+              ],
+              "isMultipartImage": false,
+              "technovisorItemType": 4,
+              "relativePosition": 2,
+              "groupIdentity": 1
+            },
+            "index": 1
+          }
+        ]
+      }
+    ],
+    "clutches": [],
+    "measurements": [
+      {
+        "name": "",
+        "value": ""
+      },
+      {
+        "name": "",
+        "value": ""
+      },
+      {
+        "name": "",
+        "value": ""
+      },
+      {
+        "name": "",
+        "value": ""
+      },
+      {
+        "name": "",
+        "value": ""
+      },
+      {
+        "name": "",
+        "value": ""
+      },
+      {
+        "name": "",
+        "value": ""
+      },
+      {
+        "name": "",
+        "value": ""
+      },
+      {
+        "name": "Tележка 1 (слева)",
+        "value": "Ф(<font color=\"gray\">  0</font>,<font color=\"gray\">  0</font>)"
+      },
+      {
+        "name": "Tележка 1 (справа)",
+        "value": "Ф(<font color=\"green\">-20</font>,<font color=\"green\">-14</font>)"
+      },
+      {
+        "name": "Tележка 2 (слева)",
+        "value": "Ф(<font color=\"gray\">  0</font>,<font color=\"gray\">  0</font>)"
+      },
+      {
+        "name": "Tележка 2 (справа)",
+        "value": "Ф(<font color=\"green\">-19</font>,<font color=\"green\">-19</font>)"
+      }
+    ],
+    "speed": 14.9,
+    "rollingStockType": 128,
+    "alarmLevel": 0,
+    "axles": 4,
+    "wagonIndex": 7
+  }
+}
