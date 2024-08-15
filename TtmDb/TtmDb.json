@@ -1,92 +1,110 @@
 [
-    {
-        "ObjectName": "krasnoyarsk",
-        "EmoivAddress": "10.11.14.99",
-        "MonkeyAddress": "empty"
-    },
-    {
-        "ObjectName": "taman",
-        "EmoivAddress": "172.30.15.1",
-        "MonkeyAddress": "empty"
-    },
-    {
-        "ObjectName": "novorossiysk",
-        "EmoivAddress": "172.30.16.1",
-        "MonkeyAddress": "empty"
-    },
-    {
-        "ObjectName": "bataysk",
-        "EmoivAddress": "172.30.17.1",
-        "MonkeyAddress": "http://172.30.17.11:5001"
-    },
-    {
-        "ObjectName": "spb",
-        "EmoivAddress": "172.30.18.99",
-        "MonkeyAddress": "http://172.30.18.141:5001"
-    },
-    {
-        "ObjectName": "vhodnaya",
-        "EmoivAddress": "172.30.19.99",
-        "MonkeyAddress": "http://172.30.19.141:5001"
-    },
-    {
-        "ObjectName": "habr",
-        "EmoivAddress": "172.30.20.99",
-        "MonkeyAddress": "http://172.30.20.142:5001"
-    },
-    {
-        "ObjectName": "chelyabinsk",
-        "EmoivAddress": "10.11.21.99",
-        "MonkeyAddress": "http://10.11.21.141:5001"
-    },
-    {
-        "ObjectName": "oreh",
-        "EmoivAddress": "172.30.22.99",
-        "MonkeyAddress": "http://172.30.22.141:5001"
-    },
-    {
-        "ObjectName": "zelecino",
-        "EmoivAddress": "172.30.23.1",
-        "MonkeyAddress": "http://172.30.23.81:5001"
-    },
-    {
-        "ObjectName": "komsomolsk",
-        "EmoivAddress": "172.30.24.99",
-        "MonkeyAddress": "http://172.30.24.81:5001"
-    },
-    {
-        "ObjectName": "smolensk",
-        "EmoivAddress": "172.30.29.99",
-        "MonkeyAddress": "http://172.30.29.81:5001"
-    },
-    {
-        "ObjectName": "kurbakinskaya",
-        "EmoivAddress": "172.30.30.99",
-        "MonkeyAddress": "http://172.30.30.81:5001"
-    },
-    {
-        "ObjectName": "murmansk",
-        "EmoivAddress": "10.11.31.99",
-        "MonkeyAddress": "http://10.11.31.81:5001"
-    },
-    {
-        "ObjectName": "ekaterinburg",
-        "EmoivAddress": "172.30.32.1",
-        "MonkeyAddress": "http://172.30.32.72:5001"
-    },
-    {
-        "ObjectName": "inskaya",
-        "EmoivAddress": "172.30.33.1",
-        "MonkeyAddress": "http://172.30.33.40:5001"
-    },
-    {
-        "ObjectName": "kinel",
-        "EmoivAddress": "172.30.34.1",
-        "MonkeyAddress": "http://172.30.34.21:5001"
-    },
-    {
-        "ObjectName": "losta",
-        "EmoivAddress": "172.30.35.1",
-        "MonkeyAddress": "http://172.30.35.40:5001"
-    }
+  {
+    "ObjectName": "krasnoyarsk",
+    "EmoivAddress": "10.11.14.99",
+    "MonkeyAddress": "empty",
+    "Release": "PPSS_20240220_frosty_winter"
+  },
+  {
+    "ObjectName": "taman",
+    "EmoivAddress": "172.30.15.1",
+    "MonkeyAddress": "empty",
+    "Release": "censored"
+  },
+  {
+    "ObjectName": "novorossiysk",
+    "EmoivAddress": "172.30.16.1",
+    "MonkeyAddress": "empty",
+    "Release": "censored"
+  },
+  {
+    "ObjectName": "bataysk",
+    "EmoivAddress": "172.30.17.1",
+    "MonkeyAddress": "http://172.30.17.11:5001",
+    "Release": "censored"
+  },
+  {
+    "ObjectName": "spb",
+    "EmoivAddress": "172.30.18.99",
+    "MonkeyAddress": "http://172.30.18.141:5001",
+    "Release": "PPSS_20240220_frosty_winter"
+  },
+  {
+    "ObjectName": "vhodnaya",
+    "EmoivAddress": "172.30.19.99",
+    "MonkeyAddress": "http://172.30.19.141:5001",
+    "Release": "PPSS_20240220_frosty_winter"
+  },
+  {
+    "ObjectName": "habr",
+    "EmoivAddress": "172.30.20.99",
+    "MonkeyAddress": "http://172.30.20.142:5001",
+    "Release": "PPSS_20240220_frosty_winter"
+  },
+  {
+    "ObjectName": "chelyabinsk",
+    "EmoivAddress": "10.11.21.99",
+    "MonkeyAddress": "http://10.11.21.141:5001",
+    "Release": "PPSS_20240722_the_fifth_element"
+  },
+  {
+    "ObjectName": "oreh",
+    "EmoivAddress": "172.30.22.99",
+    "MonkeyAddress": "http://172.30.22.141:5001",
+    "Release": "PPSS_20240220_frosty_winter"
+  },
+  {
+    "ObjectName": "zelecino",
+    "EmoivAddress": "172.30.23.1",
+    "MonkeyAddress": "http://172.30.23.81:5001",
+    "Release": "PPSS_20231120_winter_is_coming"
+  },
+  {
+    "ObjectName": "komsomolsk",
+    "EmoivAddress": "172.30.24.99",
+    "MonkeyAddress": "http://172.30.24.81:5001",
+    "Release": "PPSS_20240220_frosty_winter"
+  },
+  {
+    "ObjectName": "smolensk",
+    "EmoivAddress": "172.30.29.99",
+    "MonkeyAddress": "http://172.30.29.81:5001",
+    "Release": "PPSS_20231120_winter_is_coming"
+  },
+  {
+    "ObjectName": "kurbakinskaya",
+    "EmoivAddress": "172.30.30.99",
+    "MonkeyAddress": "http://172.30.30.81:5001",
+    "Release": "PPSS_20231120_winter_is_coming"
+  },
+  {
+    "ObjectName": "murmansk",
+    "EmoivAddress": "10.11.31.99",
+    "MonkeyAddress": "http://10.11.31.81:5001",
+    "Release": "PPSS_20231120_winter_is_coming"
+  },
+  {
+    "ObjectName": "ekaterinburg",
+    "EmoivAddress": "172.30.32.1",
+    "MonkeyAddress": "http://172.30.32.72:5001",
+    "Release": "PPSS_20231120_winter_is_coming"
+  },
+  {
+    "ObjectName": "inskaya",
+    "EmoivAddress": "172.30.33.1",
+    "MonkeyAddress": "http://172.30.33.40:5001",
+    "Release": "PPSS_20240220_frosty_winter"
+  },
+  {
+    "ObjectName": "kinel",
+    "EmoivAddress": "172.30.34.1",
+    "MonkeyAddress": "http://172.30.34.21:5001",
+    "Release": "PPSS_20240722_the_fifth_element"
+  },
+  {
+    "ObjectName": "losta",
+    "EmoivAddress": "172.30.35.1",
+    "MonkeyAddress": "http://172.30.35.40:5001",
+    "Release": "PPSS_20240220_frosty_winter"
+  }
 ]
