@@ -2,9 +2,6 @@ import requests, json, base64, os, time
 from datetime import datetime, timedelta
 # from pymongo import MongoClient
 StartTime = datetime.now()
-ConsulResponse = (requests.get("http://localhost:8500/v1/kv/tools/ReportsMonitoring")).text
-print("ConsulResponse: " + ConsulResponse)
-Config = json.loads(base64.b64decode(json.loads(ConsulResponse)[0]["Value"]).decode("utf-8"))
 
 # Client = MongoClient("10.31.1.123", 27017)
 # Db = Client.ReportsMonitoring
@@ -23,6 +20,10 @@ def Log(Text):
     file = open(Config["LogPath"], "a")
     file.write(Text)
     file.close()
+
+ConsulResponse = (requests.get("http://localhost:8500/v1/kv/tools/ReportsMonitoring")).text
+Log("ConsulResponse: " + ConsulResponse)
+Config = json.loads(base64.b64decode(json.loads(ConsulResponse)[0]["Value"]).decode("utf-8"))
 
 if Config["СlearLog"] == True:
     Log("СlearLog = True. Сlear log.")

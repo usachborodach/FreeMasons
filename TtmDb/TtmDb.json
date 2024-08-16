@@ -9,19 +9,19 @@
     "ObjectName": "taman",
     "EmoivAddress": "172.30.15.1",
     "MonkeyAddress": "empty",
-    "Release": "TEST!"
+    "Release": "нетиражируемый"
   },
   {
     "ObjectName": "novorossiysk",
     "EmoivAddress": "172.30.16.1",
     "MonkeyAddress": "empty",
-    "Release": "censored"
+    "Release": "нетиражируемый"
   },
   {
     "ObjectName": "bataysk",
     "EmoivAddress": "172.30.17.1",
     "MonkeyAddress": "http://172.30.17.11:5001",
-    "Release": "censored"
+    "Release": "нетиражируемый"
   },
   {
     "ObjectName": "spb",
@@ -69,7 +69,7 @@
     "ObjectName": "smolensk",
     "EmoivAddress": "172.30.29.99",
     "MonkeyAddress": "http://172.30.29.81:5001",
-    "Release": "PPSS_20231120_winter_is_coming"
+    "Release": "PPSS_20240722_the_fifth_element"
   },
   {
     "ObjectName": "kurbakinskaya",
