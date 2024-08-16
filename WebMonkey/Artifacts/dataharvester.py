@@ -2,7 +2,9 @@ import requests, json, base64, os, time
 from datetime import datetime, timedelta
 # from pymongo import MongoClient
 StartTime = datetime.now()
-Config = json.loads(base64.b64decode(json.loads((requests.get(f"http://localhost:8500/v1/kv/tools/ReportsMonitoring")).text)[0]["Value"]).decode("utf-8"))
+ConsulResponse = (requests.get("http://localhost:8500/v1/kv/tools/ReportsMonitoring")).text
+print("ConsulResponse: " + ConsulResponse)
+Config = json.loads(base64.b64decode(json.loads(ConsulResponse)[0]["Value"]).decode("utf-8"))
 
 # Client = MongoClient("10.31.1.123", 27017)
 # Db = Client.ReportsMonitoring

@@ -1,8 +1,9 @@
-from flask import Flask
+from flask import Flask, render_template, send_from_directory, request
 from datetime import datetime, timedelta
 import json, os, base64, requests
-from flask import render_template, request
-Config = json.loads(base64.b64decode(json.loads((requests.get("http://localhost:8500/v1/kv/tools/ReportsMonitoring")).text)[0]["Value"]).decode("utf-8"))
+ConsulResponse = (requests.get("http://localhost:8500/v1/kv/tools/ReportsMonitoring")).text
+print(ConsulResponse)
+Config = json.loads(base64.b64decode(json.loads(ConsulResponse)[0]["Value"]).decode("utf-8"))
 app = Flask(__name__)
 @app.route('/favicon.ico')
 def favicon():

@@ -1,5 +1,5 @@
-ChosenObjectMode = False
-ChosenObjectList = ["chelyabinsk"]
+ChosenObjectMode = True
+ChosenObjectList = ["kinel"]
 
 AllObjects = ["krasnoyarsk", "bataysk", "spb", "vhodnaya", "habr", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
 if ChosenObjectMode == True:
