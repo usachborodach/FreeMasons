@@ -1,0 +1,27 @@
+<head>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+	<title>ChinaLearner</title>
+</head>
+
+<body>
+	<table>
+		<tr><td>
+			{{ Item['hieroglyph'] }}
+		</td></tr>
+		<tr><td>
+			{{ Item["transcription"] }}
+		</td></tr>
+		<tr><td>
+			{{ Item["translation"] }}
+		</td></tr>
+		<tr><td>
+			<audio controls> 
+				<source src="/static/sounds/{{ Item['hieroglyph'] }}.mp3" /> 
+			  </audio> 
+		</td></tr>
+
+
+
+	</table>
+</body>
