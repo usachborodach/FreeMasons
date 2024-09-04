@@ -13,6 +13,6 @@ def IndexPage():
             break
     return render_template("index.html", Item=RandomItem)
 
-app.run(debug=True, port=5007)
+app.run(debug=True, host="10.11.1.32", port=5007)
 
 
