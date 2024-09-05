@@ -20,8 +20,14 @@
 				<source src="/static/sounds/{{ Item['hieroglyph'] }}.mp3" /> 
 			  </audio> 
 		</td></tr>
-
-
-
+		{% for Button in Buttons %}
+		<tr>
+			<td>
+				<form action="/{{ Button }}" method="GET">
+					<input type="submit" value="{{ Button }}">
+				</form>
+			</td>
+		</tr>
+		{% endfor %}
 	</table>
 </body>
