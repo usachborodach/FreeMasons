@@ -1,7 +1,7 @@
-LocalMode = False
+LocalMode = True
 
 if LocalMode:
-    HostAddress = "127.0.0.1"
+    HostAddress = "0.0.0.0"
 else:    
     HostAddress = "10.11.1.32"
 import os, json
