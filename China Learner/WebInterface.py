@@ -1,5 +1,7 @@
-#добавить кнопки
+#переименовать мп3
+#связать транскрипцию и мп3
 #оформить это функцией, чтобы Ваня мог прописать логику
+
 
 from flask import Flask, render_template, send_from_directory, send_file
 import json, os, random
@@ -10,11 +12,25 @@ def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
 @app.route("/", methods=["GET"])
 def IndexPage():
+    Item, Buttons = VanyaFunction(Data)
+    return render_template("index.html", Item=Item, Buttons=Buttons)
+
+
+
+def VanyaFunction(Data):
     while True:
         RandomItem = random.choice(Data)
         if RandomItem["category"] == "СЕМЬЯ":
+            Question = RandomItem  
+            del Question["translation"]
             break
-    return render_template("index.html", Item=RandomItem, Buttons=["Кнопка раз", "Кнопка два", "Кнопка три"])
+    Variations = list()
+    for i in range(3):
+        Variation = dict()
+        Variation["translation"] = random.choice(Data)["translation"]
+        Variations.append(Variation)
+    return(Question, Variations)
+
 
 
 app.run(debug=True, host="0.0.0.0", port=5007)

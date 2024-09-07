@@ -6,15 +6,11 @@
 
 <body>
 	<table>
+		{% for Value in Item.values() %}
 		<tr><td>
-			{{ Item['hieroglyph'] }}
+			{{ Value }}
 		</td></tr>
-		<tr><td>
-			{{ Item["transcription"] }}
-		</td></tr>
-		<tr><td>
-			{{ Item["translation"] }}
-		</td></tr>
+		{% endfor %}
 		<tr><td>
 			<audio controls> 
 				<source src="/static/sounds/{{ Item['hieroglyph'] }}.mp3" /> 

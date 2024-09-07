@@ -20,27 +20,3 @@ tr, th, td {vertical-align: top; font-family: simsun.ttc; font-size: 100px; bord
 input {font-size: 100px; background-color: var(--light); color:var(--dark)}
 button {font-size: 100px; background-color: var(--light); color:var(--dark)}
 form {display: inline}
-
-a:link {
-  color: grey;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
