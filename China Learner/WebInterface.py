@@ -31,9 +31,4 @@ def VanyaFunction(Data):
         Variations.append(Variation)
     return(Question, Variations)
 
-
-
-app.run(debug=True, host="0.0.0.0", port=5007)
-# app.run(debug=True, host="10.11.1.32", port=5007)
-
-
+app.run(debug=True, host="10.11.1.32", port=5007)
