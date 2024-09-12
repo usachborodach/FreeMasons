@@ -1,7 +1,27 @@
-{
-  "arnv1": "172.30.24.11",
-  "gateway": "172.30.24.71",
-  "mihi": "172.30.24.99",
-  "tvf1": "172.30.24.21",
-  "tvk1": "172.30.24.81"
-}
+[
+  {
+    "Name": "arnv1",
+    "Os": "linux",
+    "Address": "172.30.24.11"
+  },
+  {
+    "Name": "gateway",
+    "Os": "windows",
+    "Address": "172.30.24.71"
+  },
+  {
+    "Name": "mihi",
+    "Os": "linux",
+    "Address": "172.30.24.99"
+  },
+  {
+    "Name": "tvf1",
+    "Os": "linux",
+    "Address": "172.30.24.21"
+  },
+  {
+    "Name": "tvk1",
+    "Os": "linux",
+    "Address": "172.30.24.81"
+  }
+]
