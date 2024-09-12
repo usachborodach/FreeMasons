@@ -24,7 +24,7 @@ def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
 @app.route("/", methods=["GET"])
 def IndexPage():
-    DataPath = os.path.abspath(os.path.join(BasePath, "..", "TtmDb", "TtmDb.json"))
+    DataPath = os.path.abspath(os.path.join(BasePath, "..", "TtmDb", "ConciseData.json"))
     Data = json.loads(open(DataPath, encoding="utf-8").read())
     Sheet = list()
     for Object in Data:

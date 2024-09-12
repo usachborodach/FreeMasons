@@ -1,6 +1,6 @@
 import json, subprocess, os
 BasePath = os.path.dirname(__file__)
-DataPath = os.path.abspath(os.path.join(BasePath, "..", "TtmDb", "TtmDb.json"))
+DataPath = os.path.abspath(os.path.join(BasePath, "..", "TtmDb", "ConciseData.json"))
 Data = json.loads(open(DataPath, encoding="utf-8").read())
 for Item in Data:
     if Item["ObjectName"] in ["inskaya", "losta"]:
