@@ -1,0 +1,87 @@
+[
+  {
+    "Name": "arnv1",
+    "Os": "linux",
+    "Address": "192.168.254.10"
+  },
+  {
+    "Name": "arnv2",
+    "Os": "linux",
+    "Address": "192.168.242.10"
+  },
+  {
+    "Name": "db1",
+    "Os": "linux",
+    "Address": "192.168.254.1"
+  },
+  {
+    "Name": "db2",
+    "Os": "linux",
+    "Address": "192.168.254.2"
+  },
+  {
+    "Name": "emoiv",
+    "Os": "linux",
+    "Address": "192.168.254.99"
+  },
+  {
+    "Name": "gateway",
+    "Os": "windows",
+    "Address": "192.168.254.71"
+  },
+  {
+    "Name": "lkps1",
+    "Os": "linux",
+    "Address": "192.168.254.30"
+  },
+  {
+    "Name": "lkps2",
+    "Os": "linux",
+    "Address": "192.168.242.30"
+  },
+  {
+    "Name": "lpwan1",
+    "Os": "linux",
+    "Address": "192.168.254.50"
+  },
+  {
+    "Name": "lpwan2",
+    "Os": "linux",
+    "Address": "192.168.242.50"
+  },
+  {
+    "Name": "rfid2",
+    "Os": "linux",
+    "Address": "192.168.242.60"
+  },
+  {
+    "Name": "sjdk1",
+    "Os": "windows",
+    "Address": "192.168.254.40"
+  },
+  {
+    "Name": "sjdk2",
+    "Os": "windows",
+    "Address": "192.168.242.40"
+  },
+  {
+    "Name": "tvf1",
+    "Os": "linux",
+    "Address": "192.168.254.20"
+  },
+  {
+    "Name": "tvf2",
+    "Os": "linux",
+    "Address": "192.168.242.20"
+  },
+  {
+    "Name": "tvk1",
+    "Os": "linux",
+    "Address": "192.168.254.80"
+  },
+  {
+    "Name": "tvk2",
+    "Os": "linux",
+    "Address": "192.168.242.80"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "arnv1",
+    "Os": "linux",
+    "Address": "192.168.254.11"
+  },
+  {
+    "Name": "gateway",
+    "Os": "windows",
+    "Address": "192.168.254.71"
+  },
+  {
+    "Name": "mihi",
+    "Os": "linux",
+    "Address": "192.168.254.99"
+  },
+  {
+    "Name": "tvf1",
+    "Os": "linux",
+    "Address": "192.168.254.21"
+  },
+  {
+    "Name": "tvk1",
+    "Os": "linux",
+    "Address": "192.168.254.81"
+  }
+]

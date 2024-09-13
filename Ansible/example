@@ -1,0 +1,62 @@
+[kinel_emoiv]
+    emoiv ansible_host=172.30.34.1 system=linux
+
+[kinel_db]
+    db1 ansible_host=172.30.34.3 system=linux
+    db2 ansible_host=172.30.34.4 system=linux
+    db3 ansible_host=172.30.34.5 system=linux
+    db4 ansible_host=172.30.34.6 system=linux
+
+[kinel_arnv]
+    arnv1 ansible_host=172.30.34.14  system=linux
+    arnv2 ansible_host=172.30.34.34  system=linux
+    arnv3 ansible_host=172.30.34.97  system=linux
+    arnv4 ansible_host=172.30.34.129 system=linux
+
+[kinel_tvf]
+    tvf1 ansible_host=172.30.34.15  system=linux
+    tvf2 ansible_host=172.30.34.35  system=linux
+    tvf3 ansible_host=172.30.34.98  system=linux
+    tvf4 ansible_host=172.30.34.130 system=linux
+
+[kinel_lkps]
+    lkps1 ansible_host=172.30.34.16  system=linux
+    lkps2 ansible_host=172.30.34.36  system=linux
+    lkps3 ansible_host=172.30.34.99  system=linux
+    lkps4 ansible_host=172.30.34.131 system=linux
+
+[kinel_sjdk]
+    sjdk1 ansible_host=172.30.34.17  system=windows
+    sjdk2 ansible_host=172.30.34.37  system=windows
+    sjdk3 ansible_host=172.30.34.100 system=windows
+    sjdk4 ansible_host=172.30.34.132 system=windows
+
+[kinel_sjdk:vars]
+    ansible_user= ansible
+    ansible_password= 1234567Qw
+    ansible_connection= winrm
+    ansible_winrm_server_cert_validation= ignore
+
+[kinel_lpwan]
+    lpwan1 ansible_host=172.30.34.18  system=linux
+    lpwan2 ansible_host=172.30.34.38  system=linux
+    lpwan3 ansible_host=172.30.34.101 system=linux
+    lpwan4 ansible_host=172.30.34.133 system=linux
+
+[kinel_rfid]
+    rfid1 ansible_host=172.30.34.19  system=linux
+    rfid2 ansible_host=172.30.34.39  system=linux
+    rfid3 ansible_host=172.30.34.102 system=linux
+    rfid4 ansible_host=172.30.34.134 system=linux
+
+[kinel_tvk]
+    tvk1 ansible_host=172.30.34.20  system=linux
+    tvk2 ansible_host=172.30.34.40  system=linux
+    tvk3 ansible_host=172.30.34.103 system=linux
+    tvk4 ansible_host=172.30.34.135 system=linux
+
+[kinel_fake]
+    fake1 ansible_host=172.30.34.21  system=linux
+    fake2 ansible_host=172.30.34.41  system=linux
+    fake3 ansible_host=172.30.34.104 system=linux
+    fake4 ansible_host=172.30.34.136 system=linux

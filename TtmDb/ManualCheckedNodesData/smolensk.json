@@ -1,0 +1,47 @@
+[
+  {
+    "Name": "arnv1",
+    "Os": "linux",
+    "Address": "172.30.29.11"
+  },
+  {
+    "Name": "arnv2",
+    "Os": "linux",
+    "Address": "172.30.29.12"
+  },
+  {
+    "Name": "db1",
+    "Os": "linux",
+    "Address": "172.30.29.1"
+  },
+  {
+    "Name": "gateway2",
+    "Os": "windows",
+    "Address": "172.30.29.73"
+  },
+  {
+    "Name": "mihi",
+    "Os": "linux",
+    "Address": "172.30.29.99"
+  },
+  {
+    "Name": "tvf1",
+    "Os": "linux",
+    "Address": "172.30.29.21"
+  },
+  {
+    "Name": "tvf2",
+    "Os": "linux",
+    "Address": "172.30.29.22"
+  },
+  {
+    "Name": "tvk1",
+    "Os": "linux",
+    "Address": "172.30.29.81"
+  },
+  {
+    "Name": "tvk2",
+    "Os": "linux",
+    "Address": "172.30.29.82"
+  }
+]

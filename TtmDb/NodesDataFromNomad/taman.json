@@ -1,0 +1,102 @@
+[
+  {
+    "Name": "kpp1",
+    "Os": "linux",
+    "Address": "192.168.254.120"
+  },
+  {
+    "Name": "kpp2",
+    "Os": "linux",
+    "Address": "192.168.254.122"
+  },
+  {
+    "Name": "ta-arnv1",
+    "Os": "windows",
+    "Address": "172.30.15.13"
+  },
+  {
+    "Name": "ta-arnv2",
+    "Os": "windows",
+    "Address": "172.30.15.14"
+  },
+  {
+    "Name": "ta-db",
+    "Os": "windows",
+    "Address": "172.30.15.2"
+  },
+  {
+    "Name": "ta-lkps1",
+    "Os": "windows",
+    "Address": "172.30.15.33"
+  },
+  {
+    "Name": "ta-lkps2",
+    "Os": "windows",
+    "Address": "172.30.15.34"
+  },
+  {
+    "Name": "ta-sjdk1",
+    "Os": "windows",
+    "Address": "172.30.15.43"
+  },
+  {
+    "Name": "ta-sjdk2",
+    "Os": "windows",
+    "Address": "172.30.15.44"
+  },
+  {
+    "Name": "ta-tv2",
+    "Os": "linux",
+    "Address": "172.30.15.24"
+  },
+  {
+    "Name": "vs-arnv1",
+    "Os": "windows",
+    "Address": "172.30.15.11"
+  },
+  {
+    "Name": "vs-arnv2",
+    "Os": "windows",
+    "Address": "172.30.15.12"
+  },
+  {
+    "Name": "vs-db",
+    "Os": "windows",
+    "Address": "172.30.15.1"
+  },
+  {
+    "Name": "vs-gateway",
+    "Os": "windows",
+    "Address": "192.168.254.2"
+  },
+  {
+    "Name": "vs-lkps1",
+    "Os": "windows",
+    "Address": "172.30.15.31"
+  },
+  {
+    "Name": "vs-lkps2",
+    "Os": "windows",
+    "Address": "172.30.15.32"
+  },
+  {
+    "Name": "vs-sjdk1",
+    "Os": "windows",
+    "Address": "172.30.15.41"
+  },
+  {
+    "Name": "vs-sjdk2",
+    "Os": "windows",
+    "Address": "172.30.15.42"
+  },
+  {
+    "Name": "vs-tv1",
+    "Os": "windows",
+    "Address": "172.30.15.21"
+  },
+  {
+    "Name": "vs-tv2",
+    "Os": "windows",
+    "Address": "172.30.15.22"
+  }
+]

@@ -1,0 +1,197 @@
+[
+    {
+        "Name": "arnv1",
+        "Os": "linux",
+        "Address": "172.30.34.14"
+    },
+    {
+        "Name": "arnv2",
+        "Os": "linux",
+        "Address": "172.30.34.34"
+    },
+    {
+        "Name": "arnv3",
+        "Os": "linux",
+        "Address": "172.30.34.97"
+    },
+    {
+        "Name": "arnv4",
+        "Os": "linux",
+        "Address": "172.30.34.129"
+    },
+    {
+        "Name": "db1",
+        "Os": "linux",
+        "Address": "172.30.34.3"
+    },
+    {
+        "Name": "db2",
+        "Os": "linux",
+        "Address": "172.30.34.4"
+    },
+    {
+        "Name": "db3",
+        "Os": "linux",
+        "Address": "172.30.34.5"
+    },
+    {
+        "Name": "db4",
+        "Os": "linux",
+        "Address": "172.30.34.6"
+    },
+    {
+        "Name": "element1",
+        "Os": "linux",
+        "Address": "172.30.34.22"
+    },
+    {
+        "Name": "element4",
+        "Os": "linux",
+        "Address": "172.30.34.137"
+    },
+    {
+        "Name": "emoiv",
+        "Os": "linux",
+        "Address": "172.30.34.1"
+    },
+    {
+        "Name": "fake1",
+        "Os": "linux",
+        "Address": "172.30.34.21"
+    },
+    {
+        "Name": "fake2",
+        "Os": "linux",
+        "Address": "172.30.34.41"
+    },
+    {
+        "Name": "fake3",
+        "Os": "linux",
+        "Address": "172.30.34.104"
+    },
+    {
+        "Name": "fake4",
+        "Os": "linux",
+        "Address": "172.30.34.136"
+    },
+    {
+        "Name": "lkps1",
+        "Os": "linux",
+        "Address": "172.30.34.16"
+    },
+    {
+        "Name": "lkps2",
+        "Os": "linux",
+        "Address": "172.30.34.36"
+    },
+    {
+        "Name": "lkps3",
+        "Os": "linux",
+        "Address": "172.30.34.99"
+    },
+    {
+        "Name": "lkps4",
+        "Os": "linux",
+        "Address": "172.30.34.131"
+    },
+    {
+        "Name": "lpwan1",
+        "Os": "linux",
+        "Address": "172.30.34.18"
+    },
+    {
+        "Name": "lpwan2",
+        "Os": "linux",
+        "Address": "172.30.34.38"
+    },
+    {
+        "Name": "lpwan3",
+        "Os": "linux",
+        "Address": "172.30.34.101"
+    },
+    {
+        "Name": "lpwan4",
+        "Os": "linux",
+        "Address": "172.30.34.133"
+    },
+    {
+        "Name": "rfid1",
+        "Os": "linux",
+        "Address": "172.30.34.19"
+    },
+    {
+        "Name": "rfid2",
+        "Os": "linux",
+        "Address": "172.30.34.39"
+    },
+    {
+        "Name": "rfid3",
+        "Os": "linux",
+        "Address": "172.30.34.102"
+    },
+    {
+        "Name": "rfid4",
+        "Os": "linux",
+        "Address": "172.30.34.134"
+    },
+    {
+        "Name": "sjdk1",
+        "Os": "windows",
+        "Address": "172.30.34.17"
+    },
+    {
+        "Name": "sjdk2",
+        "Os": "windows",
+        "Address": "172.30.34.37"
+    },
+    {
+        "Name": "sjdk3",
+        "Os": "windows",
+        "Address": "172.30.34.100"
+    },
+    {
+        "Name": "sjdk4",
+        "Os": "windows",
+        "Address": "172.30.34.132"
+    },
+    {
+        "Name": "tvf1",
+        "Os": "linux",
+        "Address": "172.30.34.15"
+    },
+    {
+        "Name": "tvf2",
+        "Os": "linux",
+        "Address": "172.30.34.35"
+    },
+    {
+        "Name": "tvf3",
+        "Os": "linux",
+        "Address": "172.30.34.98"
+    },
+    {
+        "Name": "tvf4",
+        "Os": "linux",
+        "Address": "172.30.34.130"
+    },
+    {
+        "Name": "tvk1",
+        "Os": "linux",
+        "Address": "172.30.34.20"
+    },
+    {
+        "Name": "tvk2",
+        "Os": "linux",
+        "Address": "172.30.34.40"
+    },
+    {
+        "Name": "tvk3",
+        "Os": "linux",
+        "Address": "172.30.34.103"
+    },
+    {
+        "Name": "tvk4",
+        "Os": "linux",
+        "Address": "172.30.34.135"
+    }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "arnv1",
+    "Os": "linux",
+    "Address": "172.30.24.11"
+  },
+  {
+    "Name": "mihi",
+    "Os": "linux",
+    "Address": "172.30.24.99"
+  },
+  {
+    "Name": "tvf1",
+    "Os": "linux",
+    "Address": "172.30.24.21"
+  },
+  {
+    "Name": "tvk1",
+    "Os": "linux",
+    "Address": "172.30.24.81"
+  }
+]

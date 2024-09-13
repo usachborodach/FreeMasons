@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "arnv1",
+    "Os": "linux",
+    "Address": "172.30.17.11"
+  },
+  {
+    "Name": "arnv3",
+    "Os": "linux",
+    "Address": "172.30.17.15"
+  },
+  {
+    "Name": "db1",
+    "Os": "windows",
+    "Address": "172.30.17.1"
+  },
+  {
+    "Name": "db2",
+    "Os": "windows",
+    "Address": "192.168.254.134"
+  },
+  {
+    "Name": "element1",
+    "Os": "linux",
+    "Address": "172.30.17.53"
+  },
+  {
+    "Name": "element3",
+    "Os": "linux",
+    "Address": "192.168.254.142"
+  },
+  {
+    "Name": "gateway",
+    "Os": "windows",
+    "Address": "192.168.254.11"
+  },
+  {
+    "Name": "lkps1",
+    "Os": "windows",
+    "Address": "172.30.17.31"
+  },
+  {
+    "Name": "ppss-laz-gpu-1",
+    "Os": "linux",
+    "Address": "172.30.17.2"
+  },
+  {
+    "Name": "sjdk1",
+    "Os": "windows",
+    "Address": "172.30.17.72"
+  },
+  {
+    "Name": "tensor-75",
+    "Os": "windows",
+    "Address": "172.30.17.71"
+  },
+  {
+    "Name": "tvf1",
+    "Os": "linux",
+    "Address": "172.30.17.21"
+  }
+]

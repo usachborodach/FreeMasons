@@ -1,5 +1,5 @@
 AllObjects = ["krasnoyarsk", "taman", "novorossiysk", "bataysk", "spb", "vhodnaya", "habr", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
-ChosenObjects = ["komsomolsk"]
+ChosenObjects = ["krasnoyarsk", "taman", "bataysk", "spb", "vhodnaya", "chelyabinsk", "oreh", "zelecino", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
 import json, os, subprocess
 BasePath = os.path.dirname(__file__)
 ConciseDataPath = os.path.join(BasePath, "ConciseData.json")
@@ -15,7 +15,7 @@ for Index, ObjectData in enumerate(ConciseData):
         if len(Line) == 0:
             continue
         Line = Line.split()
-        if Line[2].startswith("arm"):
+        if Line[2].startswith("arm") or Line[2] == "gateway":
             continue
         NodeNameIdDict[Line[2]] = Line[0]
     NodeNameIdDict = dict(sorted(NodeNameIdDict.items()))
@@ -30,7 +30,7 @@ for Index, ObjectData in enumerate(ConciseData):
             if Line.find("kernel.name") > -1:
                 ResultNodeData["Os"] = Line.split()[-1]
         ResultData.append(ResultNodeData)
-        print(ObjectData["EmoivAddress"] + NodeName + " downloaded")
+        print(ObjectData["ObjectName"] + " " + NodeName + " downloaded")
     ResultDataPath = os.path.join(BasePath, "NodesDataFromNomad", ObjectData["ObjectName"]+".json")
     with open(ResultDataPath, 'w', encoding="utf-8") as fp:
         json.dump(ResultData, fp, indent=2, ensure_ascii=False)

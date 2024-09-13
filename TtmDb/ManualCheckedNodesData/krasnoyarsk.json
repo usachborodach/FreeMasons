@@ -1,0 +1,87 @@
+[
+  {
+    "Name": "arnv1",
+    "Os": "linux",
+    "Address": "10.11.14.11"
+  },
+  {
+    "Name": "arnv2",
+    "Os": "linux",
+    "Address": "192.168.242.12"
+  },
+  {
+    "Name": "db1",
+    "Os": "linux",
+    "Address": "10.11.14.1"
+  },
+  {
+    "Name": "db2",
+    "Os": "linux",
+    "Address": "10.11.14.2"
+  },
+  {
+    "Name": "emoiv",
+    "Os": "linux",
+    "Address": "10.11.14.99"
+  },
+  {
+    "Name": "lkps1",
+    "Os": "linux",
+    "Address": "10.11.14.31"
+  },
+  {
+    "Name": "lkps2",
+    "Os": "linux",
+    "Address": "192.168.242.32"
+  },
+  {
+    "Name": "lpwan1",
+    "Os": "linux",
+    "Address": "10.11.14.51"
+  },
+  {
+    "Name": "lpwan2",
+    "Os": "linux",
+    "Address": "192.168.242.52"
+  },
+  {
+    "Name": "rfid1",
+    "Os": "linux",
+    "Address": "10.11.14.61"
+  },
+  {
+    "Name": "rfid2",
+    "Os": "linux",
+    "Address": "192.168.242.62"
+  },
+  {
+    "Name": "sjdk1",
+    "Os": "windows",
+    "Address": "10.11.14.41"
+  },
+  {
+    "Name": "sjdk2",
+    "Os": "windows",
+    "Address": "192.168.242.42"
+  },
+  {
+    "Name": "tvf1",
+    "Os": "linux",
+    "Address": "10.11.14.21"
+  },
+  {
+    "Name": "tvf2",
+    "Os": "linux",
+    "Address": "192.168.242.22"
+  },
+  {
+    "Name": "tvk1",
+    "Os": "linux",
+    "Address": "10.11.14.81"
+  },
+  {
+    "Name": "tvk2",
+    "Os": "linux",
+    "Address": "192.168.242.82"
+  }
+]

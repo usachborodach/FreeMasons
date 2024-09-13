@@ -1,0 +1,87 @@
+[
+  {
+    "Name": "arnv1",
+    "Os": "windows",
+    "Address": "172.30.15.13"
+  },
+  {
+    "Name": "arnv2",
+    "Os": "windows",
+    "Address": "172.30.15.14"
+  },
+  {
+    "Name": "db2",
+    "Os": "windows",
+    "Address": "172.30.15.11"
+  },
+  {
+    "Name": "lkps1",
+    "Os": "windows",
+    "Address": "172.30.15.33"
+  },
+  {
+    "Name": "lkps2",
+    "Os": "windows",
+    "Address": "172.30.15.34"
+  },
+  {
+    "Name": "sjdk1",
+    "Os": "windows",
+    "Address": "172.30.15.43"
+  },
+  {
+    "Name": "sjdk2",
+    "Os": "windows",
+    "Address": "172.30.15.44"
+  },
+  {
+    "Name": "tv2",
+    "Os": "linux",
+    "Address": "172.30.15.24"
+  },
+  {
+    "Name": "arnv1",
+    "Os": "windows",
+    "Address": "172.30.15.11"
+  },
+  {
+    "Name": "arnv2",
+    "Os": "windows",
+    "Address": "172.30.15.12"
+  },
+  {
+    "Name": "db1",
+    "Os": "windows",
+    "Address": "172.30.15.1"
+  },
+  {
+    "Name": "lkps1",
+    "Os": "windows",
+    "Address": "172.30.15.31"
+  },
+  {
+    "Name": "lkps2",
+    "Os": "windows",
+    "Address": "172.30.15.32"
+  },
+  {
+    "Name": "sjdk1",
+    "Os": "windows",
+    "Address": "172.30.15.41"
+  },
+  {
+    "Name": "sjdk2",
+    "Os": "windows",
+    "Address": "172.30.15.42"
+  },
+  {
+    "Name": "tv1",
+    "Os": "windows",
+    "Address": "172.30.15.21"
+  },
+  {
+    "Name": "tv2",
+    "Os": "windows",
+    "Address": "172.30.15.22"
+  }
+]

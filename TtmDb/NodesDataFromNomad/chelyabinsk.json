@@ -1,0 +1,257 @@
+[
+  {
+    "Name": "arnv1",
+    "Os": "linux",
+    "Address": "192.168.254.11"
+  },
+  {
+    "Name": "arnv2",
+    "Os": "linux",
+    "Address": "192.168.254.12"
+  },
+  {
+    "Name": "arnv3",
+    "Os": "linux",
+    "Address": "192.168.254.13"
+  },
+  {
+    "Name": "arnv4",
+    "Os": "linux",
+    "Address": "192.168.254.14"
+  },
+  {
+    "Name": "arnv5",
+    "Os": "linux",
+    "Address": "192.168.254.15"
+  },
+  {
+    "Name": "db1",
+    "Os": "windows",
+    "Address": "192.168.254.1"
+  },
+  {
+    "Name": "db2",
+    "Os": "windows",
+    "Address": "192.168.254.2"
+  },
+  {
+    "Name": "db3",
+    "Os": "windows",
+    "Address": "192.168.254.3"
+  },
+  {
+    "Name": "db4",
+    "Os": "windows",
+    "Address": "192.168.254.4"
+  },
+  {
+    "Name": "db5",
+    "Os": "windows",
+    "Address": "192.168.254.5"
+  },
+  {
+    "Name": "element1",
+    "Os": "linux",
+    "Address": "192.168.254.191"
+  },
+  {
+    "Name": "element2",
+    "Os": "linux",
+    "Address": "192.168.254.192"
+  },
+  {
+    "Name": "element3",
+    "Os": "linux",
+    "Address": "192.168.254.193"
+  },
+  {
+    "Name": "element4",
+    "Os": "linux",
+    "Address": "192.168.254.194"
+  },
+  {
+    "Name": "element5",
+    "Os": "linux",
+    "Address": "192.168.254.195"
+  },
+  {
+    "Name": "emoiv",
+    "Os": "windows",
+    "Address": "192.168.254.99"
+  },
+  {
+    "Name": "fake1",
+    "Os": "linux",
+    "Address": "192.168.254.141"
+  },
+  {
+    "Name": "fake2",
+    "Os": "windows",
+    "Address": "192.168.254.142"
+  },
+  {
+    "Name": "fake3",
+    "Os": "linux",
+    "Address": "192.168.254.143"
+  },
+  {
+    "Name": "fake4",
+    "Os": "linux",
+    "Address": "192.168.254.144"
+  },
+  {
+    "Name": "gateway",
+    "Os": "windows",
+    "Address": "192.168.254.71"
+  },
+  {
+    "Name": "lkps1",
+    "Os": "linux",
+    "Address": "192.168.254.31"
+  },
+  {
+    "Name": "lkps2",
+    "Os": "linux",
+    "Address": "192.168.254.32"
+  },
+  {
+    "Name": "lkps3",
+    "Os": "linux",
+    "Address": "192.168.254.33"
+  },
+  {
+    "Name": "lkps4",
+    "Os": "linux",
+    "Address": "192.168.254.34"
+  },
+  {
+    "Name": "lkps5",
+    "Os": "linux",
+    "Address": "192.168.254.35"
+  },
+  {
+    "Name": "lpwan1",
+    "Os": "windows",
+    "Address": "172.30.21.51"
+  },
+  {
+    "Name": "lpwan2",
+    "Os": "windows",
+    "Address": "192.168.254.52"
+  },
+  {
+    "Name": "lpwan3",
+    "Os": "windows",
+    "Address": "192.168.254.53"
+  },
+  {
+    "Name": "lpwan4",
+    "Os": "windows",
+    "Address": "192.168.254.54"
+  },
+  {
+    "Name": "lpwan5",
+    "Os": "windows",
+    "Address": "192.168.254.55"
+  },
+  {
+    "Name": "rfid1",
+    "Os": "windows",
+    "Address": "192.168.254.61"
+  },
+  {
+    "Name": "rfid2",
+    "Os": "windows",
+    "Address": "192.168.254.62"
+  },
+  {
+    "Name": "rfid3",
+    "Os": "windows",
+    "Address": "192.168.254.63"
+  },
+  {
+    "Name": "rfid4",
+    "Os": "windows",
+    "Address": "192.168.254.64"
+  },
+  {
+    "Name": "rfid5",
+    "Os": "windows",
+    "Address": "192.168.254.65"
+  },
+  {
+    "Name": "sjdk1",
+    "Os": "windows",
+    "Address": "192.168.254.41"
+  },
+  {
+    "Name": "sjdk2",
+    "Os": "windows",
+    "Address": "192.168.254.42"
+  },
+  {
+    "Name": "sjdk3",
+    "Os": "windows",
+    "Address": "192.168.254.43"
+  },
+  {
+    "Name": "sjdk4",
+    "Os": "windows",
+    "Address": "192.168.254.44"
+  },
+  {
+    "Name": "sjdk5",
+    "Os": "windows",
+    "Address": "192.168.254.45"
+  },
+  {
+    "Name": "tvf1",
+    "Os": "linux",
+    "Address": "192.168.254.21"
+  },
+  {
+    "Name": "tvf2",
+    "Os": "linux",
+    "Address": "192.168.254.22"
+  },
+  {
+    "Name": "tvf3",
+    "Os": "linux",
+    "Address": "192.168.254.23"
+  },
+  {
+    "Name": "tvf4",
+    "Os": "linux",
+    "Address": "192.168.254.24"
+  },
+  {
+    "Name": "tvf5",
+    "Os": "linux",
+    "Address": "192.168.254.25"
+  },
+  {
+    "Name": "tvk1",
+    "Os": "linux",
+    "Address": "192.168.254.81"
+  },
+  {
+    "Name": "tvk2",
+    "Os": "linux",
+    "Address": "192.168.254.82"
+  },
+  {
+    "Name": "tvk3",
+    "Os": "linux",
+    "Address": "192.168.254.83"
+  },
+  {
+    "Name": "tvk4",
+    "Os": "linux",
+    "Address": "192.168.254.84"
+  },
+  {
+    "Name": "tvk5",
+    "Os": "linux",
+    "Address": "192.168.254.85"
+  }
+]
