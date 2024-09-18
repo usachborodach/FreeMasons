@@ -1,0 +1,1 @@
+ansible-playbook ping.yml | tee ping.log

@@ -1,0 +1,8 @@
+---
+- name: PingPlaybook
+  hosts: bataysk_arnv2 bataysk_element2 bataysk_lkps2 bataysk_telezhka2 bataysk_tvf2 bataysk_tvk1 chelyabinsk_arnv2 chelyabinsk_element2 chelyabinsk_element4 chelyabinsk_element5 chelyabinsk_arnv5 chelyabinsk_element1 chelyabinsk_element3 chelyabinsk_fake1 chelyabinsk_lkps4 chelyabinsk_tvf3 krasnoyarsk_arnv1 krasnoyarsk_arnv2 krasnoyarsk_lkps2 krasnoyarsk_lpwan2 krasnoyarsk_rfid1 krasnoyarsk_rfid2 krasnoyarsk_tvf1 krasnoyarsk_tvf2 krasnoyarsk_tvk2 oreh_lkps2 smolensk_tvf2 spb_lpwan1 spb_fake1 vhodnaya_tvf2
+  become: yes
+  gather_facts: False
+  tasks:
+  - name: PingTask
+    ansible.builtin.ping:

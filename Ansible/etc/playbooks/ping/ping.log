@@ -1,0 +1,67 @@
+
+PLAY [PingPlaybook] ************************************************************
+
+TASK [PingTask] ****************************************************************
+fatal: [bataysk_arnv2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.30.17.14 port 22: Connection timed out", "unreachable": true}
+fatal: [bataysk_element2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.30.17.51 port 22: Connection timed out", "unreachable": true}
+fatal: [bataysk_lkps2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.30.17.32 port 22: Connection timed out", "unreachable": true}
+fatal: [bataysk_telezhka2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.30.17.61 port 22: Connection timed out", "unreachable": true}
+fatal: [bataysk_tvf2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.30.17.22 port 22: Connection timed out", "unreachable": true}
+fatal: [chelyabinsk_element4]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: root@10.11.21.104: Permission denied (publickey,password).", "unreachable": true}
+fatal: [bataysk_tvk1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.30.17.91 port 22: Connection timed out", "unreachable": true}
+fatal: [chelyabinsk_arnv2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.11.21.12 port 22: Connection timed out", "unreachable": true}
+fatal: [chelyabinsk_element2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.11.21.102 port 22: Connection timed out", "unreachable": true}
+fatal: [chelyabinsk_element5]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.11.21.105 port 22: Connection timed out", "unreachable": true}
+fatal: [chelyabinsk_arnv5]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.11.21.15 port 22: Connection timed out", "unreachable": true}
+fatal: [chelyabinsk_element1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.11.21.101 port 22: Connection timed out", "unreachable": true}
+fatal: [chelyabinsk_element3]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.11.21.103 port 22: Connection timed out", "unreachable": true}
+fatal: [chelyabinsk_fake1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.11.21.141 port 22: Connection timed out", "unreachable": true}
+fatal: [chelyabinsk_lkps4]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.11.21.34 port 22: Connection timed out", "unreachable": true}
+fatal: [krasnoyarsk_arnv1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.11.14.11 port 22: Connection timed out", "unreachable": true}
+fatal: [krasnoyarsk_arnv2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.242.12 port 22: Connection timed out", "unreachable": true}
+fatal: [krasnoyarsk_lkps2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.242.32 port 22: Connection timed out", "unreachable": true}
+fatal: [krasnoyarsk_lpwan2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.242.52 port 22: Connection timed out", "unreachable": true}
+fatal: [chelyabinsk_tvf3]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Connection closed by 10.11.21.23 port 22", "unreachable": true}
+fatal: [krasnoyarsk_rfid1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.11.14.61 port 22: Connection timed out", "unreachable": true}
+fatal: [krasnoyarsk_rfid2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.242.62 port 22: Connection timed out", "unreachable": true}
+fatal: [krasnoyarsk_tvf1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.11.14.21 port 22: Connection timed out", "unreachable": true}
+fatal: [krasnoyarsk_tvf2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.242.22 port 22: Connection timed out", "unreachable": true}
+fatal: [oreh_lkps2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: root@172.30.22.32: Permission denied (publickey,password).", "unreachable": true}
+fatal: [spb_lpwan1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: root@172.30.18.51: Permission denied (publickey,password).", "unreachable": true}
+fatal: [krasnoyarsk_tvk2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.242.82 port 22: Connection timed out", "unreachable": true}
+fatal: [vhodnaya_tvf2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: root@172.30.19.22: Permission denied (publickey,password).", "unreachable": true}
+fatal: [smolensk_tvf2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.30.29.22 port 22: Connection timed out", "unreachable": true}
+fatal: [spb_fake1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.30.18.146 port 22: Connection timed out", "unreachable": true}
+
+PLAY RECAP *********************************************************************
+bataysk_arnv2              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+bataysk_element2           : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+bataysk_lkps2              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+bataysk_telezhka2          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+bataysk_tvf2               : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+bataysk_tvk1               : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+chelyabinsk_arnv2          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+chelyabinsk_arnv5          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+chelyabinsk_element1       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+chelyabinsk_element2       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+chelyabinsk_element3       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+chelyabinsk_element4       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+chelyabinsk_element5       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+chelyabinsk_fake1          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+chelyabinsk_lkps4          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+chelyabinsk_tvf3           : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+krasnoyarsk_arnv1          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+krasnoyarsk_arnv2          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+krasnoyarsk_lkps2          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+krasnoyarsk_lpwan2         : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+krasnoyarsk_rfid1          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+krasnoyarsk_rfid2          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+krasnoyarsk_tvf1           : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+krasnoyarsk_tvf2           : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+krasnoyarsk_tvk2           : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+oreh_lkps2                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+smolensk_tvf2              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+spb_fake1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+spb_lpwan1                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+vhodnaya_tvf2              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+

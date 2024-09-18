@@ -2,7 +2,7 @@
   {
     "ObjectName": "krasnoyarsk",
     "EmoivAddress": "10.11.14.99",
-    "MonkeyAddress": "empty",
+    "MonkeyAddress": "http://10.11.14.81:5001/",
     "Release": "PPSS_20240220_frosty_winter"
   },
   {

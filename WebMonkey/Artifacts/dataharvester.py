@@ -6,6 +6,8 @@ StartTime = datetime.now()
 # Client = MongoClient("10.31.1.123", 27017)
 # Db = Client.ReportsMonitoring
 # Collection = Db.IssueReports
+ConsulResponse = (requests.get("http://localhost:8500/v1/kv/tools/ReportsMonitoring")).text
+Config = json.loads(base64.b64decode(json.loads(ConsulResponse)[0]["Value"]).decode("utf-8"))
 
 if os.path.exists(Config["DataPath"]) == False:
     os.makedirs(Config["DataPath"])
@@ -21,9 +23,7 @@ def Log(Text):
     file.write(Text)
     file.close()
 
-ConsulResponse = (requests.get("http://localhost:8500/v1/kv/tools/ReportsMonitoring")).text
 Log("ConsulResponse: " + ConsulResponse)
-Config = json.loads(base64.b64decode(json.loads(ConsulResponse)[0]["Value"]).decode("utf-8"))
 
 if Config["СlearLog"] == True:
     Log("СlearLog = True. Сlear log.")

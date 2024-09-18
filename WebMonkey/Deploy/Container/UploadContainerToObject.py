@@ -1,6 +1,6 @@
 AllObjects = ["krasnoyarsk", "bataysk", "spb", "vhodnaya", "habr", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
-ChosenObjectList = ["chelyabinsk"]
-ChosenObjectMode = False
+ChosenObjectList = ["krasnoyarsk"]
+ChosenObjectMode = True
 
 import json, os, subprocess, datetime
 from threading import Thread

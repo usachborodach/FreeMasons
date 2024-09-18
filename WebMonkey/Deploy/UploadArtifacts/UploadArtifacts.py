@@ -1,7 +1,7 @@
-ChosenObjectMode = True
-ChosenObjectList = ["kinel"]
-
 AllObjects = ["krasnoyarsk", "bataysk", "spb", "vhodnaya", "habr", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
+ChosenObjectMode = True
+ChosenObjectList = ["krasnoyarsk"]
+
 if ChosenObjectMode == True:
    ListToUpload = ChosenObjectList
 else:
