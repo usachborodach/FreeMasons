@@ -43,24 +43,35 @@ Body = """	group "__NODENAME__" {
 """
 
 Objects =["krasnoyarsk", "taman", "bataysk", "spb", "vhodnaya", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
+Objects =["ekaterinburg"]
 Rsa = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAG8Ypsw25QmkkSaWy87Gu3eqbK9c3S6B62E9cIlFEvk"
 
 import json, os, subprocess
 BasePath = os.path.dirname(__file__)
-InputPath = "c:\\FreeMasons\\TtmDb\\ManualCheckedNodesData"
+NodesDataPath = "c:\\FreeMasons\\TtmDb\\ManualCheckedNodesData"
+ConciseDataPath = "c:\\FreeMasons\\TtmDb\\ConciseData.json"
+ConciseData = json.loads(open(ConciseDataPath, encoding="utf-8").read())
 for Object in Objects:
 	print(Object+" is started")
+	for Item in ConciseData:
+		if Item["ObjectName"] == Object:
+			EmoivAddress = Item["EmoivAddress"]
+			break
 	ResultString = Head.replace("__OBJECTNAME__", Object)
-	InputFilePath = os.path.join(InputPath, Object+".json")
-	InputData = json.loads(open(InputFilePath, encoding="utf-8").read())
+	ObjectNodesDataPath = os.path.join(NodesDataPath, Object+".json")
+	InputData = json.loads(open(ObjectNodesDataPath, encoding="utf-8").read())
 	for Node in InputData:
 		if Node["Os"] == "linux":
 			ResultString += Body.replace("__NODENAME__", Node["Name"]).replace("__RSA__", Rsa)
 	ResultString += "}"
-	print(ResultString)
-	ResultPath = os.path.join(BasePath, Object+".hcl")
+	ResultPath = os.path.join(BasePath, "NomadScripts", f"{Object}.hcl")
 	NomadScript = open(ResultPath, "w", encoding="UTF-8")
 	NomadScript.write(ResultString)
 	NomadScript.close()
-	subprocess.check_output("nomad job run --address=http://"+ObjectData["EmoivAddress"]+":4646 "+Object+".hcl").decode("utf-8")
+	try:
+		print(subprocess.check_output(f'nomad job run -detach -address=http://{EmoivAddress}:4646 {ResultPath}').decode("utf-8"))
+	except Exception as ExceptionText:
+		print(ExceptionText)
+	else:
+		os.system(f"start http://{EmoivAddress}:4646/ui/jobs/RsaToClient")
 	print(Object+" done")
