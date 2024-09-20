@@ -1,5 +1,5 @@
 AllObjects = ["krasnoyarsk", "taman", "novorossiysk", "bataysk", "spb", "vhodnaya", "habr", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
-ChosenObjects = ["krasnoyarsk", "taman", "bataysk", "spb", "vhodnaya", "chelyabinsk", "oreh", "zelecino", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
+ChosenObjects = ["habr"]
 import json, os, subprocess
 BasePath = os.path.dirname(__file__)
 ConciseDataPath = os.path.join(BasePath, "ConciseData.json")

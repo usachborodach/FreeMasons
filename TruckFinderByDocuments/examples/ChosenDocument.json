@@ -1,0 +1,292 @@
+[
+    {
+        "_id": {
+            "$binary": {
+                "base64": "9jgaHpwIzUmwKBWQqQgK9w==",
+                "subType": "03"
+            }
+        },
+        "SkuNumber": "91783373",
+        "StockLength": 25620,
+        "TareWeight": 25.1,
+        "TareWeightCapacity": 74.5,
+        "Timestamp": {
+            "DateTime": {
+                "$date": "2024-08-04T04:59:37.519Z"
+            },
+            "Ticks": 638583443775198700
+        },
+        "TruckModels": [
+            "18-9855"
+        ],
+        "WagonModel": "13-6903",
+        "WagonType": 945,
+        "AutomaticRegulator": "PTP\u041f-300",
+        "CompensatingLoadBrake": "265A-4",
+        "IsAsoup3": false,
+        "LatestRepairsNote": "HET CBE\u0414EH\u0418\u0419     \r\n",
+        "RenumerationNote": null,
+        "AdministrationCode": "20"
+    },
+    {
+        "_id": {
+            "$binary": {
+                "base64": "eskCW7jDjEyGANbtERGZtg==",
+                "subType": "03"
+            }
+        },
+        "SkuNumber": "91783373",
+        "StockLength": 25620,
+        "TareWeight": 25.1,
+        "TareWeightCapacity": 74.5,
+        "Timestamp": {
+            "DateTime": {
+                "$date": "2024-04-30T00:04:56.674Z"
+            },
+            "Ticks": 638500322966744600
+        },
+        "TruckModels": [
+            "18-9855"
+        ],
+        "WagonModel": "13-6903",
+        "WagonType": 945,
+        "AutomaticRegulator": "PTP\u041f-300",
+        "CompensatingLoadBrake": "265A-4",
+        "IsAsoup3": false,
+        "LatestRepairsNote": "HET CBE\u0414EH\u0418\u0419     \r\n",
+        "RenumerationNote": null,
+        "AdministrationCode": "20"
+    },
+    {
+        "_id": {
+            "$binary": {
+                "base64": "SRW67r1Ry0qLeh3Uen0qHQ==",
+                "subType": "03"
+            }
+        },
+        "SkuNumber": "91783373",
+        "StockLength": 25620,
+        "TareWeight": 25.1,
+        "TareWeightCapacity": 74.5,
+        "Timestamp": {
+            "DateTime": {
+                "$date": "2023-12-19T08:56:17.838Z"
+            },
+            "Ticks": 638385729778387500
+        },
+        "TruckModels": [
+            "18-9855"
+        ],
+        "WagonModel": "13-6903",
+        "WagonType": 945,
+        "AutomaticRegulator": "PTP\u041f-300",
+        "CompensatingLoadBrake": "265A-4",
+        "IsAsoup3": false,
+        "LatestRepairsNote": "HET CBE\u0414EH\u0418\u0419     \r\n",
+        "RenumerationNote": null,
+        "AdministrationCode": "20"
+    },
+    {
+        "_id": {
+            "$binary": {
+                "base64": "KjKKYCipbEa1XkXtacR7hQ==",
+                "subType": "03"
+            }
+        },
+        "SkuNumber": "91783373",
+        "StockLength": 25620,
+        "TareWeight": 25.1,
+        "TareWeightCapacity": 74.5,
+        "Timestamp": {
+            "DateTime": {
+                "$date": "2023-09-06T09:22:36.067Z"
+            },
+            "Ticks": 638295889560673000
+        },
+        "TruckModels": [
+            "18-9855"
+        ],
+        "WagonModel": "13-6903",
+        "WagonType": 945,
+        "AutomaticRegulator": "PTP\u041f-300",
+        "CompensatingLoadBrake": "265A-4",
+        "IsAsoup3": false,
+        "LatestRepairsNote": "HET CBE\u0414EH\u0418\u0419     \r\n",
+        "RenumerationNote": null,
+        "AdministrationCode": "20"
+    },
+    {
+        "_id": {
+            "$binary": {
+                "base64": "lNfhTqHNM0ewU+IMfQoV6A==",
+                "subType": "03"
+            }
+        },
+        "SkuNumber": "91783373",
+        "StockLength": 25620,
+        "TareWeight": 25.1,
+        "TareWeightCapacity": 74.5,
+        "Timestamp": {
+            "DateTime": {
+                "$date": "2023-02-10T02:15:32.303Z"
+            },
+            "Ticks": 638115921323033700
+        },
+        "TruckModels": [
+            "18-9855"
+        ],
+        "WagonModel": "13-6903",
+        "WagonType": 945,
+        "AutomaticRegulator": "PTP\u041f-300",
+        "CompensatingLoadBrake": "265A-4",
+        "IsAsoup3": false,
+        "LatestRepairsNote": "HET CBE\u0414EH\u0418\u0419     \r\n",
+        "RenumerationNote": null,
+        "AdministrationCode": "20"
+    },
+    {
+        "_id": {
+            "$binary": {
+                "base64": "74mqfJ4EQ0mNLG1kos9HlQ==",
+                "subType": "03"
+            }
+        },
+        "SkuNumber": "91783373",
+        "StockLength": 25620,
+        "TareWeight": 25.1,
+        "TareWeightCapacity": 74.5,
+        "Timestamp": {
+            "DateTime": {
+                "$date": "2022-11-07T03:30:51.477Z"
+            },
+            "Ticks": 638033886514776700
+        },
+        "TruckModels": [
+            "18-9855"
+        ],
+        "WagonModel": "13-6903",
+        "WagonType": 945,
+        "AutomaticRegulator": "PTP\u041f-300",
+        "CompensatingLoadBrake": "265A-4",
+        "IsAsoup3": false,
+        "LatestRepairsNote": "HET CBE\u0414EH\u0418\u0419     \r\n",
+        "RenumerationNote": null,
+        "AdministrationCode": "20"
+    },
+    {
+        "_id": {
+            "$binary": {
+                "base64": "SEmYqfN2+ECr/ndJ5rUuMA==",
+                "subType": "03"
+            }
+        },
+        "SkuNumber": "91783373",
+        "StockLength": 25620,
+        "TareWeight": 25.1,
+        "TareWeightCapacity": 74.5,
+        "Timestamp": {
+            "DateTime": {
+                "$date": "2022-07-15T04:47:31.914Z"
+            },
+            "Ticks": 637934572519148700
+        },
+        "TruckModels": [
+            "18-9855"
+        ],
+        "WagonModel": "13-6903",
+        "WagonType": 945,
+        "AutomaticRegulator": "PTP\u041f-300",
+        "CompensatingLoadBrake": "265A-4",
+        "IsAsoup3": false,
+        "LatestRepairsNote": "HET CBE\u0414EH\u0418\u0419     \r\n",
+        "RenumerationNote": null,
+        "AdministrationCode": "20"
+    },
+    {
+        "_id": {
+            "$binary": {
+                "base64": "o51K4VgZSk6PNCaguYUFnA==",
+                "subType": "03"
+            }
+        },
+        "SkuNumber": "91783373",
+        "StockLength": 25620,
+        "TareWeight": 25.1,
+        "TareWeightCapacity": 74.5,
+        "Timestamp": {
+            "DateTime": {
+                "$date": "2022-03-31T00:45:44.226Z"
+            },
+            "Ticks": 637842843442265200
+        },
+        "TruckModels": [
+            "18-9855"
+        ],
+        "WagonModel": "13-6903",
+        "WagonType": 945,
+        "AutomaticRegulator": "PTP\u041f-300",
+        "CompensatingLoadBrake": "265A-4",
+        "IsAsoup3": false,
+        "LatestRepairsNote": "HET CBE\u0414EH\u0418\u0419     \r\n",
+        "RenumerationNote": null,
+        "AdministrationCode": "20"
+    },
+    {
+        "_id": {
+            "$binary": {
+                "base64": "jiZ+d8PRl0OMeXqDXTsXcg==",
+                "subType": "03"
+            }
+        },
+        "SkuNumber": "91783373",
+        "StockLength": 25620,
+        "TareWeight": 25.1,
+        "TareWeightCapacity": 74.5,
+        "Timestamp": {
+            "DateTime": {
+                "$date": "2021-12-30T12:59:08.714Z"
+            },
+            "Ticks": 637764659487143200
+        },
+        "TruckModels": [
+            "18-9855"
+        ],
+        "WagonModel": "13-6903",
+        "WagonType": 945,
+        "AutomaticRegulator": "PTP\u041f-300",
+        "CompensatingLoadBrake": "265A-4",
+        "IsAsoup3": false,
+        "LatestRepairsNote": "HET CBE\u0414EH\u0418\u0419     \r\n",
+        "RenumerationNote": null,
+        "AdministrationCode": "20"
+    },
+    {
+        "_id": {
+            "$binary": {
+                "base64": "nwCU5izkZUKSGO6x9ih/LA==",
+                "subType": "03"
+            }
+        },
+        "SkuNumber": "91783373",
+        "StockLength": 25620,
+        "TareWeight": 25.1,
+        "TareWeightCapacity": 74.5,
+        "Timestamp": {
+            "DateTime": {
+                "$date": "2021-09-26T18:26:50.634Z"
+            },
+            "Ticks": 637682776106340500
+        },
+        "TruckModels": [
+            "18-9855"
+        ],
+        "WagonModel": "13-6903",
+        "WagonType": 945,
+        "AutomaticRegulator": "PTP\u041f-300",
+        "CompensatingLoadBrake": "265A-4",
+        "IsAsoup3": false,
+        "LatestRepairsNote": "HET CBE\u0414EH\u0418\u0419     \r\n",
+        "RenumerationNote": null,
+        "AdministrationCode": "20"
+    }
+]

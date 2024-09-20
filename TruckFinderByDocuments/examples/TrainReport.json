@@ -1,0 +1,2776 @@
+{
+    "_id": 2,
+    "RailOCRReportId": {
+        "$binary": {
+            "base64": "AAAAAAAAAAAAAAAAAAAAAA==",
+            "subType": "03"
+        }
+    },
+    "ControlPoint": {
+        "ControlPointNumber": 1,
+        "Name": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u043f\u043e\u0434\u0445\u043e\u0434"
+    },
+    "Direction": 1,
+    "IsApproved": false,
+    "IsAttentionRequired": false,
+    "IsCommented": false,
+    "LocomotivesCount": 2,
+    "StartedTime": {
+        "DateTime": {
+            "$date": "2020-07-24T16:24:25.278Z"
+        },
+        "Ticks": 637312046652780000
+    },
+    "State": 2,
+    "Supervisor": null,
+    "TechnovisorReportId": 0,
+    "TrainDocumentId": 0,
+    "TrainDuplicateId": -1,
+    "TrainIndex": null,
+    "TrainNumber": null,
+    "TrainType": 512,
+    "VirtualWagons": null,
+    "Wagons": [
+        {
+            "AxlesCount": 6,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 1,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:25.239Z"
+                },
+                "Ticks": 637312046652390000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2742
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 1977
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 7855
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 1977
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 5,
+                    "NextAxleMm": 2771
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 6,
+                    "NextAxleMm": 5260
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 1,
+                    "WheelNumber": 1,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.3,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 1,
+                    "WheelNumber": 2,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.57,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 2,
+                    "WheelNumber": 3,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.25,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 2,
+                    "WheelNumber": 4,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.75,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 3,
+                    "WheelNumber": 5,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.27,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 3,
+                    "WheelNumber": 6,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.9,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 4,
+                    "WheelNumber": 7,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.35,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 4,
+                    "WheelNumber": 8,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.8,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 5,
+                    "AxleAtTrain": 5,
+                    "WheelNumber": 9,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.29,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 5,
+                    "AxleAtTrain": 5,
+                    "WheelNumber": 10,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.59,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 6,
+                    "AxleAtTrain": 6,
+                    "WheelNumber": 11,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.27,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 6,
+                    "AxleAtTrain": 6,
+                    "WheelNumber": 12,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.77,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:25.932Z"
+                },
+                "Ticks": 637312046659320000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 22.167218655471974,
+            "TypeNumber": 11,
+            "WagonIndex": 1,
+            "WagonOrientation": 0,
+            "WagonType": 16
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 1,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:26.090Z"
+                },
+                "Ticks": 637312046660900000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2478
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 14742
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2429
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5299
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 7,
+                    "WheelNumber": 1,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.28,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 7,
+                    "WheelNumber": 2,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.83,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 8,
+                    "WheelNumber": 3,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.27,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 8,
+                    "WheelNumber": 4,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.86,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 9,
+                    "WheelNumber": 5,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.28,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 9,
+                    "WheelNumber": 6,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.6,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 10,
+                    "WheelNumber": 7,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.25,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 10,
+                    "WheelNumber": 8,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.67,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:26.884Z"
+                },
+                "Ticks": 637312046668840000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 22.051583859244076,
+            "TypeNumber": 0,
+            "WagonIndex": 2,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 2,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:27.046Z"
+                },
+                "Ticks": 637312046670460000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2478
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 14975
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2452
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5299
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 11,
+                    "WheelNumber": 1,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.3,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 11,
+                    "WheelNumber": 2,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.75,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 12,
+                    "WheelNumber": 3,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.3,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 12,
+                    "WheelNumber": 4,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.95,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 13,
+                    "WheelNumber": 5,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.26,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 13,
+                    "WheelNumber": 6,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.84,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 14,
+                    "WheelNumber": 7,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.26,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 14,
+                    "WheelNumber": 8,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.87,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:27.840Z"
+                },
+                "Ticks": 637312046678400000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 21.866347864037916,
+            "TypeNumber": 0,
+            "WagonIndex": 3,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 3,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:28.003Z"
+                },
+                "Ticks": 637312046680030000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2478
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 14975
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2452
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5877
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 15,
+                    "WheelNumber": 1,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.33,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 15,
+                    "WheelNumber": 2,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.77,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 16,
+                    "WheelNumber": 3,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.28,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 16,
+                    "WheelNumber": 4,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.77,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 17,
+                    "WheelNumber": 5,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.3,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 17,
+                    "WheelNumber": 6,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.55,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 18,
+                    "WheelNumber": 7,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.31,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 18,
+                    "WheelNumber": 8,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.7,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:28.796Z"
+                },
+                "Ticks": 637312046687960000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 21.86634772183115,
+            "TypeNumber": 0,
+            "WagonIndex": 4,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 4,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:28.977Z"
+                },
+                "Ticks": 637312046689770000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2504
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 14975
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2451
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5825
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 19,
+                    "WheelNumber": 1,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.33,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 19,
+                    "WheelNumber": 2,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.82,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 20,
+                    "WheelNumber": 3,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.3,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 20,
+                    "WheelNumber": 4,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.76,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 21,
+                    "WheelNumber": 5,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.26,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 21,
+                    "WheelNumber": 6,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.52,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 22,
+                    "WheelNumber": 7,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.25,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 22,
+                    "WheelNumber": 8,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.7,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:29.771Z"
+                },
+                "Ticks": 637312046697710000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 22.24287573482732,
+            "TypeNumber": 0,
+            "WagonIndex": 5,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 5,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:29.952Z"
+                },
+                "Ticks": 637312046699520000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2452
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 15002
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2451
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5727
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 23,
+                    "WheelNumber": 1,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.28,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 23,
+                    "WheelNumber": 2,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.75,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 24,
+                    "WheelNumber": 3,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.3,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 24,
+                    "WheelNumber": 4,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.8,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 25,
+                    "WheelNumber": 5,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.27,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 25,
+                    "WheelNumber": 6,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.56,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 26,
+                    "WheelNumber": 7,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.24,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 26,
+                    "WheelNumber": 8,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.92,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:30.746Z"
+                },
+                "Ticks": 637312046707460000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 22.050377420413515,
+            "TypeNumber": 0,
+            "WagonIndex": 6,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 6,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:30.927Z"
+                },
+                "Ticks": 637312046709270000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2429
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 14975
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2478
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5799
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 27,
+                    "WheelNumber": 1,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.3,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 1,
+                    "AxleAtTrain": 27,
+                    "WheelNumber": 2,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.89,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 28,
+                    "WheelNumber": 3,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.29,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 2,
+                    "AxleAtTrain": 28,
+                    "WheelNumber": 4,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.87,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 29,
+                    "WheelNumber": 5,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.26,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 3,
+                    "AxleAtTrain": 29,
+                    "WheelNumber": 6,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.51,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 30,
+                    "WheelNumber": 7,
+                    "SideIssue": 4,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.24,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportWeightImpactLoad"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 12,
+                    "AxleAtWagon": 4,
+                    "AxleAtTrain": 30,
+                    "WheelNumber": 8,
+                    "SideIssue": 1,
+                    "ImapactValueNwtn": 0,
+                    "NormImapactValueNwtn": 0,
+                    "Severity": 0.67,
+                    "AlarmWSD": 0,
+                    "AlarmIL": 0
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:31.722Z"
+                },
+                "Ticks": 637312046717220000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 22.05279036662906,
+            "TypeNumber": 0,
+            "WagonIndex": 7,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 7,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:31.904Z"
+                },
+                "Ticks": 637312046719040000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2478
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 40206
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2452
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:33.522Z"
+                },
+                "Ticks": 637312046735220000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 13.334393559226932,
+            "TypeNumber": 0,
+            "WagonIndex": 8,
+            "WagonOrientation": 0,
+            "WagonType": 8
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 8,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:33.522Z"
+                },
+                "Ticks": 637312046735220000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2452
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 15002
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2452
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5326
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:33.950Z"
+                },
+                "Ticks": 637312046739500000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 22.050377420413522,
+            "TypeNumber": 0,
+            "WagonIndex": 9,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 9,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:34.479Z"
+                },
+                "Ticks": 637312046744790000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2478
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 75219
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2478
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:37.761Z"
+                },
+                "Ticks": 637312046777610000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 21.958632219199764,
+            "TypeNumber": 0,
+            "WagonIndex": 10,
+            "WagonOrientation": 0,
+            "WagonType": 8
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 2,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:37.816Z"
+                },
+                "Ticks": 637312046778160000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2478
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 5774
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2478
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 14054227
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:38.737Z"
+                },
+                "Ticks": 637312046787370000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 21.958439228159342,
+            "TypeNumber": 11,
+            "WagonIndex": 11,
+            "WagonOrientation": 0,
+            "WagonType": 16
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 10,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:24:38.791Z"
+                },
+                "Ticks": 637312046787910000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2460
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 14914
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2460
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5358
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:32:57.327Z"
+                },
+                "Ticks": 637312051773270000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 24.510307736180227,
+            "TypeNumber": 0,
+            "WagonIndex": 12,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 11,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:32:57.466Z"
+                },
+                "Ticks": 637312051774660000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2547
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 15192
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2431
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5311
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:32:58.160Z"
+                },
+                "Ticks": 637312051781600000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 25.0503172400192,
+            "TypeNumber": 0,
+            "WagonIndex": 13,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 12,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:32:58.302Z"
+                },
+                "Ticks": 637312051783020000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2460
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 14907
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2430
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5309
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:32:58.997Z"
+                },
+                "Ticks": 637312051789970000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 25.294911586889107,
+            "TypeNumber": 0,
+            "WagonIndex": 14,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 13,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:32:59.139Z"
+                },
+                "Ticks": 637312051791390000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2430
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 40082
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2489
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:32:59.834Z"
+                },
+                "Ticks": 637312051798340000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 25.173962214042582,
+            "TypeNumber": 0,
+            "WagonIndex": 15,
+            "WagonOrientation": 0,
+            "WagonType": 8
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 14,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:33:00.556Z"
+                },
+                "Ticks": 637312051805560000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2460
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 14937
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2488
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5388
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:33:00.930Z"
+                },
+                "Ticks": 637312051809300000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 25.054854961772612,
+            "TypeNumber": 0,
+            "WagonIndex": 16,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 4,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 15,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:33:01.394Z"
+                },
+                "Ticks": 637312051813940000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2460
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 14914
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 2460
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 5358
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:33:01.768Z"
+                },
+                "Ticks": 637312051817680000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 25.048667746308567,
+            "TypeNumber": 0,
+            "WagonIndex": 17,
+            "WagonOrientation": 0,
+            "WagonType": 1
+        },
+        {
+            "AxlesCount": 7,
+            "CargoName": null,
+            "Commentary": null,
+            "DerailmentProbability": 0,
+            "DiagnosticCategory": 0,
+            "DistinctIndex": 16,
+            "FirstAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:33:02.232Z"
+                },
+                "Ticks": 637312051822320000
+            },
+            "InfrastructureInfluence": 0,
+            "IsManualyCorrected": false,
+            "Issues": [
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 1,
+                    "NextAxleMm": 2518
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 2,
+                    "NextAxleMm": 14941
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 3,
+                    "NextAxleMm": 25574
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 4,
+                    "NextAxleMm": 2488
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 5,
+                    "NextAxleMm": 44593100
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportAxlePattern"
+                    ],
+                    "AlarmLevel": 0,
+                    "Category": 30,
+                    "AxleIndexAtWagon": 6,
+                    "NextAxleMm": 2479
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 2,
+                    "JointState": 0,
+                    "JointModel": "?"
+                },
+                {
+                    "_t": [
+                        "IssueReport",
+                        "IssueReportElement"
+                    ],
+                    "AlarmLevel": 4,
+                    "Category": 32,
+                    "JointType": 1,
+                    "JointState": 0,
+                    "JointModel": "?"
+                }
+            ],
+            "LastAxle": {
+                "DateTime": {
+                    "$date": "2020-07-24T16:33:03.361Z"
+                },
+                "Ticks": 637312051833610000
+            },
+            "LoadState": 0,
+            "MileageKm": 0,
+            "MileageToServiceKm": 0,
+            "SKUNumber": null,
+            "Speed": 25.17258312014223,
+            "TypeNumber": 0,
+            "WagonIndex": 18,
+            "WagonOrientation": 0,
+            "WagonType": 8
+        }
+    ],
+    "WagonsCount": 16
+}

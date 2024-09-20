@@ -43,7 +43,7 @@ Body = """	group "__NODENAME__" {
 """
 
 Objects =["krasnoyarsk", "taman", "bataysk", "spb", "vhodnaya", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
-Objects =["ekaterinburg"]
+Objects =["habr"]
 Rsa = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAG8Ypsw25QmkkSaWy87Gu3eqbK9c3S6B62E9cIlFEvk"
 
 import json, os, subprocess

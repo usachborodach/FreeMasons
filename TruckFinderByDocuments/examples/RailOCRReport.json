@@ -1,0 +1,289 @@
+{
+  "error": null,
+  "errorCode": 0,
+  "isSuccessful": true,
+  "result": {
+    "reportLines": [
+      {
+        "actualWagonSKUNumber": null,
+        "declaredWagonSKUNumber": "--------",
+        "wagonIndex": 1,
+        "distinctIndex": 1,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": null,
+        "declaredWagonSKUNumber": "--------",
+        "wagonIndex": 2,
+        "distinctIndex": 2,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "57589137",
+        "declaredWagonSKUNumber": "57589137",
+        "wagonIndex": 3,
+        "distinctIndex": 1,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98589781",
+        "declaredWagonSKUNumber": "98589781",
+        "wagonIndex": 4,
+        "distinctIndex": 2,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "95232898",
+        "declaredWagonSKUNumber": "95232898",
+        "wagonIndex": 5,
+        "distinctIndex": 3,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98126501",
+        "declaredWagonSKUNumber": "98126501",
+        "wagonIndex": 6,
+        "distinctIndex": 4,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94121993",
+        "declaredWagonSKUNumber": "94121993",
+        "wagonIndex": 7,
+        "distinctIndex": 5,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94128899",
+        "declaredWagonSKUNumber": "94128899",
+        "wagonIndex": 8,
+        "distinctIndex": 6,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98126485",
+        "declaredWagonSKUNumber": "98126485",
+        "wagonIndex": 9,
+        "distinctIndex": 7,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "95129391",
+        "declaredWagonSKUNumber": "95129391",
+        "wagonIndex": 10,
+        "distinctIndex": 8,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "54088398",
+        "declaredWagonSKUNumber": "54088398",
+        "wagonIndex": 11,
+        "distinctIndex": 9,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94117496",
+        "declaredWagonSKUNumber": "94117496",
+        "wagonIndex": 12,
+        "distinctIndex": 10,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98011471",
+        "declaredWagonSKUNumber": "98011471",
+        "wagonIndex": 13,
+        "distinctIndex": 11,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "95269197",
+        "declaredWagonSKUNumber": "95269197",
+        "wagonIndex": 14,
+        "distinctIndex": 12,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98013246",
+        "declaredWagonSKUNumber": "98013246",
+        "wagonIndex": 15,
+        "distinctIndex": 13,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98023021",
+        "declaredWagonSKUNumber": "98023021",
+        "wagonIndex": 16,
+        "distinctIndex": 14,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98588684",
+        "declaredWagonSKUNumber": "98588684",
+        "wagonIndex": 17,
+        "distinctIndex": 15,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94941788",
+        "declaredWagonSKUNumber": "94941788",
+        "wagonIndex": 18,
+        "distinctIndex": 16,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "95123998",
+        "declaredWagonSKUNumber": "95123998",
+        "wagonIndex": 19,
+        "distinctIndex": 17,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94122298",
+        "declaredWagonSKUNumber": "94122298",
+        "wagonIndex": 20,
+        "distinctIndex": 18,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98592025",
+        "declaredWagonSKUNumber": "98592025",
+        "wagonIndex": 21,
+        "distinctIndex": 19,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "95124293",
+        "declaredWagonSKUNumber": "95124293",
+        "wagonIndex": 22,
+        "distinctIndex": 20,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "54966684",
+        "declaredWagonSKUNumber": "54966684",
+        "wagonIndex": 23,
+        "distinctIndex": 21,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "95126694",
+        "declaredWagonSKUNumber": "95126694",
+        "wagonIndex": 24,
+        "distinctIndex": 22,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "59429498",
+        "declaredWagonSKUNumber": "59429498",
+        "wagonIndex": 25,
+        "distinctIndex": 23,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98573892",
+        "declaredWagonSKUNumber": "98573892",
+        "wagonIndex": 26,
+        "distinctIndex": 24,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94020690",
+        "declaredWagonSKUNumber": "94020690",
+        "wagonIndex": 27,
+        "distinctIndex": 25,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94125499",
+        "declaredWagonSKUNumber": "94125499",
+        "wagonIndex": 28,
+        "distinctIndex": 26,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94327160",
+        "declaredWagonSKUNumber": "94327160",
+        "wagonIndex": 29,
+        "distinctIndex": 27,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94112091",
+        "declaredWagonSKUNumber": "94112091",
+        "wagonIndex": 30,
+        "distinctIndex": 28,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94016292",
+        "declaredWagonSKUNumber": "94016292",
+        "wagonIndex": 31,
+        "distinctIndex": 29,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "95146999",
+        "declaredWagonSKUNumber": "95146999",
+        "wagonIndex": 32,
+        "distinctIndex": 30,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98019136",
+        "declaredWagonSKUNumber": "98019136",
+        "wagonIndex": 33,
+        "distinctIndex": 31,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94262698",
+        "declaredWagonSKUNumber": "94262698",
+        "wagonIndex": 34,
+        "distinctIndex": 32,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "94942042",
+        "declaredWagonSKUNumber": "94942042",
+        "wagonIndex": 35,
+        "distinctIndex": 33,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98589831",
+        "declaredWagonSKUNumber": "98589831",
+        "wagonIndex": 36,
+        "distinctIndex": 34,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98588643",
+        "declaredWagonSKUNumber": "98588643",
+        "wagonIndex": 37,
+        "distinctIndex": 35,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "98589021",
+        "declaredWagonSKUNumber": "98589021",
+        "wagonIndex": 38,
+        "distinctIndex": 36,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "95162590",
+        "declaredWagonSKUNumber": "95162590",
+        "wagonIndex": 39,
+        "distinctIndex": 37,
+        "issueType": 0
+      },
+      {
+        "actualWagonSKUNumber": "95127494",
+        "declaredWagonSKUNumber": "95127494",
+        "wagonIndex": 40,
+        "distinctIndex": 38,
+        "issueType": 0
+      }
+    ]
+  }
+}

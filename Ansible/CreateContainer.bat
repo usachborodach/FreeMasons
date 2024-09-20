@@ -1,1 +1,1 @@
-docker run -it --name="ansible-container" -v c:\rsa\:/rsa/ -v C:\Users\agorbov\Desktop\Ansible\etc\:/etc/ansible/ ubuntu-ansible /bin/bash
+docker run -it --name="ansible-container" -v c:\rsa\:/rsa/ -v c:\FreeMasons\Ansible\etc\:/etc/ansible/ ubuntu-ansible /bin/bash
