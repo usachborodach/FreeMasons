@@ -106,5 +106,11 @@
     "EmoivAddress": "172.30.35.1",
     "MonkeyAddress": "http://172.30.35.40:5001",
     "Release": "PPSS_20240220_frosty_winter"
+  },
+  {
+    "ObjectName": "tayshet",
+    "EmoivAddress": "172.30.39.1",
+    "MonkeyAddress": "empty",
+    "Release": "PPSS_20231120_winter_is_coming"
   }
 ]
