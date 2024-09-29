@@ -33,7 +33,7 @@
     "ObjectName": "vhodnaya",
     "EmoivAddress": "172.30.19.99",
     "MonkeyAddress": "http://172.30.19.141:5001",
-    "Release": "PPSS_20240220_frosty_winter"
+    "Release": "PPSS_20240722_the_fifth_element"
   },
   {
     "ObjectName": "habr",
@@ -51,7 +51,7 @@
     "ObjectName": "oreh",
     "EmoivAddress": "172.30.22.99",
     "MonkeyAddress": "http://172.30.22.141:5001",
-    "Release": "PPSS_20240220_frosty_winter"
+    "Release": "PPSS_20240722_the_fifth_element"
   },
   {
     "ObjectName": "zelecino",
