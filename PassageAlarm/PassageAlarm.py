@@ -48,10 +48,11 @@ while True:
         Log("Cостав пошёл!")
         threading.Thread(target=StartWarningSound, args=()).start()
     else:
-        Log("Состав не идёт")
+        Log(f"{Target} КТ: {ControlPointNumber} cостав не идёт")
     Log(f"Ждём {CheckIntervalSec} секунд")
     time.sleep(CheckIntervalSec)
 
+#вывод эксепшена если что
 #вернуть фунцию - последний состав шёл тогда - то
 #всплывающее окно
 #Логирование
