@@ -9,7 +9,7 @@ def StartWarningSound():
 def GetReport(Url):
     while True:
         try:
-            Train = json.loads(requests.get(Url).text)["result"]
+            
         except Exception as ExceptionText:
             print(ExceptionText)
             print("Следующая попытка через 10 секунд")
@@ -20,7 +20,10 @@ def GetReport(Url):
 
 def GetLastTrain(Skip):
     print("Получаем краткий отчёт по составу")
-    RequestUrl = f'http://{Target}:50293/GetLatestConciseReports?token=ifihadaheart&skip={Skip}&take=1&onlyTroubles=false'
+    
+    
+    
+    
     return(GetReport(RequestUrl)[0])
 
 Aknowledged = list()
@@ -34,7 +37,7 @@ def IsAknowledged(Train):
         return False
 
 def IsSuitable(Train):
-    if Train["trainType"] == 1 and Train["direction"] == 1 and Train["controlPoint"]["controlPointNumber"] == ControlPointNumber:
+    if 
         print(f'Состав {Train["id"]} удовлетворяет условиям')
         return True
     else:
@@ -75,25 +78,21 @@ PpssDb = MongoClient["PPSS-DB"]
 Collection2651 = PpssDb["Document2651"]
 Skip = 0
 IsLastTrainTimeDefined = False
+
+
+
+
+Skip = 0
 while True:
-    Train = GetLastTrain(Skip)
-    if IsAknowledged(Train) == True:
-        Skip = 0
-        print(f"Ждём {CheckIntervalSec} секунд")
-        time.sleep(CheckIntervalSec)
+    Train = json.loads(requests.get(RequestUrl = f'http://{Target}:50293/GetLatestConciseReports?token=ifihadaheart&skip={Skip}&take=1&onlyTroubles=false').text)["result"]
+    if Train["trainType"] == 1 and Train["direction"] == 1 and Train["controlPoint"]["controlPointNumber"] == ControlPointNumber:
+        print(f'Последний состав по этой точке проходил {str(datetime.datetime.now() - datetime.datetime.strptime(Train["startedTime"][:16], "%Y-%m-%dT%H:%M"))[:7]} назад')
+        break
     else:
-        if IsSuitable(Train) == True:
-            if IsLastTrainTimeDefined == False:
-                IsLastTrainTimeDefined = True
-                print(f'Последний состав по этой точке проходил {str(datetime.datetime.now() - datetime.datetime.strptime(Train["startedTime"][:16], "%Y-%m-%dT%H:%M"))[:7]} назад')
-                continue
-            else:
-                print("По интересующей нас точке прошёл состав!")
-                StartWarningSound()
-                # GetBarberWagons(Train)
-        else:
-            Skip += 1
-            continue
+        Skip += 1
+        continue
+
+
 
 #всплывающее окно
 #Логирование

@@ -1,4 +1,4 @@
-import subprocess, os, playsound, time, threading, datetime
+import subprocess, os, playsound, time, threading, datetime, json, requests
 BasePath = os.path.dirname(__file__)
 
 def StartWarningSound():
@@ -30,11 +30,20 @@ def GetLogTail():
     Log(f"Хвост лога СП:\n{LogTail}")
     return(LogTail)
 
+def CheckLastPassage():
+    Skip = 0
+    while True:
+        Train = json.loads(requests.get(f'http://{Target}:50293/GetLatestConciseReports?token=ifihadaheart&skip={Skip}&take=1&onlyTroubles=false').text)["result"][0]
+        if Train["trainType"] == 1 and Train["direction"] == 1 and Train["controlPoint"]["controlPointNumber"] == ControlPointNumber:
+            print(f'Последний состав по этой точке проходил {str(datetime.datetime.now() - datetime.datetime.strptime(Train["startedTime"][:16], "%Y-%m-%dT%H:%M"))[:7]} назад')
+            break
+        else:
+            Skip += 1
+            continue
 
-
-DevMode = False
+DevMode = True
 if DevMode == True:
-    Target = "192.168.254.99"
+    Target = "172.30.19.99"
     ControlPointNumber = 1
     CheckIntervalSec = 30
 else:
@@ -42,8 +51,9 @@ else:
     ControlPointNumber = int(input("Введите номер контрольной точки\n"))
     CheckIntervalSec = int(input("Введите интервал проверок в секундах. 30 будт норм\n"))
 
+CheckLastPassage()
+AllocId = GetAllocId()
 while True:
-    AllocId = GetAllocId()
     if GetLogTail().find("Wagon") > -1:
         Log("Cостав пошёл!")
         threading.Thread(target=StartWarningSound, args=()).start()
@@ -53,7 +63,3 @@ while True:
     time.sleep(CheckIntervalSec)
 
 #вывод эксепшена если что
-#вернуть фунцию - последний состав шёл тогда - то
-#всплывающее окно
-#Логирование
-#Динамическое отображение таймаута
