@@ -2,7 +2,8 @@ import subprocess, os, playsound, time, threading, datetime, json, requests
 BasePath = os.path.dirname(__file__)
 
 def StartWarningSound():
-    WarnPath = os.path.join(BasePath, "warn.mp3")
+    # WarnPath = os.path.join(BasePath, "warn.mp3")
+    WarnPath = "warn.mp3"
     while True:
         playsound.playsound(WarnPath)
 
@@ -41,7 +42,7 @@ def CheckLastPassage():
             Skip += 1
             continue
 
-DevMode = True
+DevMode = False
 if DevMode == True:
     Target = "172.30.19.99"
     ControlPointNumber = 1
