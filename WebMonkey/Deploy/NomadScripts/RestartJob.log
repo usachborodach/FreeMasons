@@ -1,32 +1,32 @@
-2024-07-20 17:19:32.413867 krasnoyarsk is restarting
-2024-07-20 17:19:32.415915 bataysk is restarting
-2024-07-20 17:19:32.433209 spb is restarting
-2024-07-20 17:19:32.445211 vhodnaya is restarting
-2024-07-20 17:19:32.470213 habr is restarting
-2024-07-20 17:19:32.495215 chelyabinsk is restarting
-2024-07-20 17:19:32.530364 oreh is restarting
-2024-07-20 17:19:32.550144 zelecino is restarting
-2024-07-20 17:19:32.561047 komsomolsk is restarting
-2024-07-20 17:19:32.575579 smolensk is restarting
-2024-07-20 17:19:32.606429 kurbakinskaya is restarting
-2024-07-20 17:19:32.617428 murmansk is restarting
-2024-07-20 17:19:32.630429 ekaterinburg is restarting
-2024-07-20 17:19:32.649725 inskaya is restarting
-2024-07-20 17:19:32.667729 kinel is restarting
-2024-07-20 17:19:32.699751 losta is restarting
-2024-07-20 17:19:37.325922 krasnoyarsk is restarted successfully. Duration: 0:00:05.082805
-2024-07-20 17:19:38.332351 murmansk is restarted successfully. Duration: 0:00:06.089234
-2024-07-20 17:19:38.575398 bataysk is restarted successfully. Duration: 0:00:06.332281
-2024-07-20 17:19:38.679165 chelyabinsk is restarted successfully. Duration: 0:00:06.436048
-2024-07-20 17:19:38.772379 oreh is restarted successfully. Duration: 0:00:06.529262
-2024-07-20 17:19:38.997166 losta is restarted successfully. Duration: 0:00:06.754049
-2024-07-20 17:19:39.163164 smolensk is restarted successfully. Duration: 0:00:06.920047
-2024-07-20 17:19:39.563854 spb is restarted successfully. Duration: 0:00:07.320737
-2024-07-20 17:19:39.640676 kinel is restarted successfully. Duration: 0:00:07.397559
-2024-07-20 17:19:39.932103 vhodnaya is restarted successfully. Duration: 0:00:07.688986
-2024-07-20 17:19:40.067271 ekaterinburg is restarted successfully. Duration: 0:00:07.824154
-2024-07-20 17:19:40.181283 inskaya is restarted successfully. Duration: 0:00:07.938166
-2024-07-20 17:19:40.763399 habr is restarted successfully. Duration: 0:00:08.520282
-2024-07-20 17:19:41.621250 kurbakinskaya is restarted successfully. Duration: 0:00:09.378133
-2024-07-20 17:19:42.161217 komsomolsk is restarted successfully. Duration: 0:00:09.918100
-2024-07-20 17:20:18.658502 zelecino is restarted successfully. Duration: 0:00:46.415385
+2024-10-19 16:16:09.822285 krasnoyarsk is restarting
+2024-10-19 16:16:09.822285 bataysk is restarting
+2024-10-19 16:16:09.824288 spb is restarting
+2024-10-19 16:16:09.827286 vhodnaya is restarting
+2024-10-19 16:16:09.828283 habr is restarting
+2024-10-19 16:16:09.828283 chelyabinsk is restarting
+2024-10-19 16:16:09.830285 oreh is restarting
+2024-10-19 16:16:09.831286 komsomolsk is restarting
+2024-10-19 16:16:09.831286 zelecino is restarting
+2024-10-19 16:16:09.832284 smolensk is restarting
+2024-10-19 16:16:09.834283 kurbakinskaya is restarting
+2024-10-19 16:16:09.834283 murmansk is restarting
+2024-10-19 16:16:09.836285 ekaterinburg is restarting
+2024-10-19 16:16:09.837284 inskaya is restarting
+2024-10-19 16:16:09.857287 kinel is restarting
+2024-10-19 16:16:09.898285 losta is restarting
+2024-10-19 16:16:12.296687 murmansk is restarted successfully. Duration: 0:00:02.603404
+2024-10-19 16:16:12.495642 spb is restarted successfully. Duration: 0:00:02.802359
+2024-10-19 16:16:12.600526 zelecino is restarted successfully. Duration: 0:00:02.907243
+2024-10-19 16:16:12.670563 kurbakinskaya is restarted successfully. Duration: 0:00:02.977280
+2024-10-19 16:16:12.710386 krasnoyarsk is restarted successfully. Duration: 0:00:03.017103
+2024-10-19 16:16:12.919985 smolensk is restarted successfully. Duration: 0:00:03.226702
+2024-10-19 16:16:12.974607 chelyabinsk is restarted successfully. Duration: 0:00:03.281324
+2024-10-19 16:16:13.120211 vhodnaya is restarted successfully. Duration: 0:00:03.426928
+2024-10-19 16:16:13.265810 ekaterinburg is restarted successfully. Duration: 0:00:03.572527
+2024-10-19 16:16:13.335703 bataysk is restarted successfully. Duration: 0:00:03.642420
+2024-10-19 16:16:13.458707 kinel is restarted successfully. Duration: 0:00:03.765424
+2024-10-19 16:16:13.827913 oreh is restarted successfully. Duration: 0:00:04.134630
+2024-10-19 16:16:14.128663 losta is restarted successfully. Duration: 0:00:04.435380
+2024-10-19 16:16:14.193183 habr is restarted successfully. Duration: 0:00:04.499900
+2024-10-19 16:16:14.575350 komsomolsk is restarted successfully. Duration: 0:00:04.882067
+2024-10-19 16:16:14.838632 inskaya is restarted successfully. Duration: 0:00:05.145349

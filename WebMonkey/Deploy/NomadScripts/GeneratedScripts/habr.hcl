@@ -29,10 +29,10 @@ job "ReportsMonitoring" {
 		task "dataharvester" {
 			driver = "docker"
 			artifact {
-				source = "http://192.168.254.99:5657/share/reports_monitoring_container.tar.gz"
+				source = "http://172.30.20.99:5657/share/reports_monitoring_container.tar.gz"
 			}	
 			artifact {
-				source = "http://192.168.254.99:5657/share/reports_monitoring_artifacts.zip"
+				source = "http://172.30.20.99:5657/share/reports_monitoring_artifacts.zip"
 				destination = "local/app"
 			}			
 			kill_signal  = "SIGINT"
@@ -61,10 +61,10 @@ job "ReportsMonitoring" {
 		task "rmwebui" {
 			driver = "docker"
 			artifact {
-				source = "http://192.168.254.99:5657/share/reports_monitoring_container.tar.gz"
+				source = "http://172.30.20.99:5657/share/reports_monitoring_container.tar.gz"
 			}	
 			artifact {
-				source = "http://192.168.254.99:5657/share/reports_monitoring_artifacts.zip"
+				source = "http://172.30.20.99:5657/share/reports_monitoring_artifacts.zip"
 				destination = "local/app"
 			}			
 			kill_signal  = "SIGINT"

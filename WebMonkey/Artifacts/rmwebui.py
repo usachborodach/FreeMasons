@@ -28,7 +28,7 @@ def OnlyTroublesCpSorted3h():
             Data.append(TrainData)
     Data = sorted(Data, key=lambda TrainData: TrainData["КТ"])
     if len(Data) == 0:
-        return render_template("index.html", Data=[{"✔️ Всё ок": "Проблем нет"}], Config=Config)
+        return render_template("index.html", Data=[{" ":"✔️ Всё ок", "  ": "Проблем нет", "-"*50: "-"*50}], Config=Config)
     return render_template("index.html", Data=Data, Config=Config)
 
 @app.route("/", methods=["GET"])

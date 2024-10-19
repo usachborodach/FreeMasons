@@ -1,6 +1,6 @@
 AllObjects = ["krasnoyarsk", "bataysk", "spb", "vhodnaya", "habr", "chelyabinsk", "oreh", "zelecino", "komsomolsk", "smolensk", "kurbakinskaya", "murmansk", "ekaterinburg", "inskaya", "kinel", "losta"]
-ChosenObjectMode = True
-ChosenObjectList = ["krasnoyarsk"]
+ChosenObjectMode = False
+ChosenObjectList = ["vhodnaya"]
 
 if ChosenObjectMode == True:
    ListToUpload = ChosenObjectList
@@ -25,11 +25,12 @@ def MainFunction(Object):
     print("starting " + Object)
     StartTime = datetime.datetime.now()
     try:
+        Log(f"{Object} artifacts loading have been started")
         subprocess.run("curl -X POST \"http://"+GetExternalEmoivAddress(Object)+":5657/upload/share\" -H \"accept: application/json\" -H \"Content-Type: multipart/form-data\" -F \"file=@"+(os.path.join(BaseDir, "reports_monitoring_artifacts.zip")), timeout = 360)
     except Exception as ExceptionText:
         Log(Object + str(ExceptionText) + ". Duration: "  + str(datetime.datetime.now()-StartTime))
     else:
-        Log(" " + Object + "artifacts uploaded successfully. Duration: " + str(datetime.datetime.now()-StartTime))
+        Log(f"{Object} artifacts uploaded successfully. Duration: {str(datetime.datetime.now()-StartTime)}")
 
 LogFilePath = os.path.join(BaseDir, "UploadArtifacts.log")
 file = open(LogFilePath, "w")
