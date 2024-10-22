@@ -1,0 +1,30 @@
+{
+  "Datacenter": "bataysk",
+  "ExternalEmoivAddress": "172.30.17.1",
+  "InfoProviderAddress": "172.30.17.1:50985",
+  "NumberOfTrainsForConciseReport": 100,
+  "ConciseReportIntervalMinutes": 1,
+  "TimeoutReadyMinutes": 30,
+  "DataPath": "/data/ReportsMonitoring/",
+  "LogPath": "/var/log/DataHarvester.log",
+  "СlearLog": true,
+  "СlearData": true,
+  "Host": "0.0.0.0",
+  "Port": "5001",
+  "Reports": [
+    "АРНВ",
+    "НГ",
+    "НВ",
+    "ДКВ",
+    "КМП",
+    "ТК",
+    "ОД",
+    "ФК",
+    "ПН",
+    "НП",
+    "ЗО",
+    "СГНС",
+    "ОДВ",
+    "Э"
+  ]
+}

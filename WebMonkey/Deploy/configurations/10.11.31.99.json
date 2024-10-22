@@ -1,0 +1,19 @@
+{
+  "Datacenter": "murmansk",
+  "ExternalEmoivAddress": "10.11.31.99",
+  "InfoProviderAddress": "192.168.254.99:50293",
+  "NumberOfTrainsForConciseReport": 100,
+  "ConciseReportIntervalMinutes": 1,
+  "TimeoutReadyMinutes": 30,
+  "DataPath": "/data/ReportsMonitoring/",
+  "LogPath": "/var/log/DataHarvester.log",
+  "СlearLog": true,
+  "СlearData": true,
+  "Host": "10.11.31.81",
+  "Port": "5001",
+  "Reports": [
+    "АРНВ",
+    "ТК",
+    "ФК"
+  ]
+}

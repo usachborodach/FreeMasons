@@ -1,0 +1,28 @@
+{
+  "Datacenter": "habr",
+  "ExternalEmoivAddress": "172.30.20.99",
+  "InfoProviderAddress": "172.30.20.99:50293",
+  "NumberOfTrainsForConciseReport": 100,
+  "ConciseReportIntervalMinutes": 1,
+  "TimeoutReadyMinutes": 30,
+  "DataPath": "/data/ReportsMonitoring/",
+  "LogPath": "/var/log/DataHarvester.log",
+  "СlearLog": true,
+  "СlearData": true,
+  "Host": "0.0.0.0",
+  "Port": "5001",
+  "Reports": [
+    "АРНВ",
+    "НГ",
+    "НВ",
+    "ДКВ",
+    "КМП",
+    "ОД",
+    "ФК",
+    "ПН",
+    "НП",
+    "ЗО",
+    "СГНС",
+    "ОДВ"
+  ]
+}
