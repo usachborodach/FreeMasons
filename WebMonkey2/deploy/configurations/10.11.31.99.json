@@ -1,0 +1,16 @@
+{
+  "Datacenter": "murmansk",
+  "ExternalEmoivAddress": "10.11.31.99",
+  "InfoProviderAddress": "192.168.254.99:50293",
+  "GetLatestConciseReportsTake": 100,
+  "GetLatestConciseReportsSkip": 0,
+  "RefreshInterval": 1,
+  "TimeoutReadyMinutes": 30,
+  "Host": "10.11.31.81",
+  "Port": "5001",
+  "Reports": [
+    "АРНВ",
+    "ТК",
+    "ФК"
+  ]
+}

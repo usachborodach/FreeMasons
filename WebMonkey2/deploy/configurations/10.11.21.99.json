@@ -1,0 +1,27 @@
+{
+  "Datacenter": "chelyabinsk",
+  "ExternalEmoivAddress": "10.11.21.99",
+  "InfoProviderAddress": "192.168.254.99:50293",
+  "GetLatestConciseReportsTake": 100,
+  "GetLatestConciseReportsSkip": 0,
+  "RefreshInterval": 1,
+  "TimeoutReadyMinutes": 30,
+  "Host": "10.11.21.141",
+  "Port": "5001",
+  "Reports": [
+    "АРНВ",
+    "НГ",
+    "НВ",
+    "ДКВ",
+    "КМП",
+    "ТК",
+    "ОД",
+    "ФК",
+    "ПН",
+    "НП",
+    "ОДВ",
+    "ЗО",
+    "СГНС",
+    "Э"
+  ]
+}

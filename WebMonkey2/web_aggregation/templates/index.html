@@ -1,0 +1,59 @@
+{% macro TrainPrint(Train) %}
+	{% for Key, Value in Train.items() %}
+		
+		{% if Key == "id" %}
+			<td>
+				<a href="http://{{ config.ExternalEmoivAddress }}/Train/{{Value}}" target="_blank">
+				  <div style="height:100%;width:100%">
+					{{Value}}
+				  </div>
+				</a>
+		    </td>
+		{% else %}
+			<td>
+				{{ Value }}
+			</td>
+		{% endif %}
+	{% endfor %}
+{% endmacro %}
+
+<head>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+	<title>{{ config.Datacenter }}</title>
+</head>
+<body>
+<div class="scrollingtable">
+	<div>
+	  <div>
+		<table>
+			<caption>
+				<table><tr>
+					<td></td><label> {{ config.Datacenter }} </label></td>
+					<td></td><form action="/" method="GET" target="_blank"><input type="submit" value="Открыть в новой вкладке"></form></td>
+					<td></td><form action="/All" method="GET"><input type="submit" value="Все составы"></form></td>
+					<td></td><form action="/OnlyTroublesCpSorted3h" method="GET"><input type="submit" value="Проблемные за три часа"></form></td>
+				</tr></table>
+				</caption>
+		  <thead>
+			<tr>
+				{% for Header in Data[0].keys() %}
+					<th><div label={{ Header }}></div></th>
+				{% endfor %}
+			  <th class="scrollbarhead"/> <!--ALWAYS ADD THIS EXTRA CELL AT END OF HEADER ROW-->
+			</tr>
+		  </thead>
+		  <tbody>
+			{% for Train in Data %}
+			<tr>
+				{{ TrainPrint(Train) }}
+			</tr>
+			{% endfor %}
+		  </tbody>
+		</table>
+	  </div>
+	</div>
+  </div>
+</body>
+
+  <!--[if lte IE 9]><style>.scrollingtable > div > div > table {margin-right: 17px;}</style><![endif]-->

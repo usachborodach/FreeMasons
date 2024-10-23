@@ -1,0 +1,26 @@
+{
+  "Datacenter": "bataysk",
+  "InfoProviderAddress": "172.30.17.1:50985",
+  "GetLatestConciseReportsTake": 100,
+  "GetLatestConciseReportsSkip": 0,
+  "RefreshInterval": 1,
+  "TimeoutReadyMinutes": 30,
+  "Host": "0.0.0.0",
+  "Port": "5001",
+  "Reports": [
+    "АРНВ",
+    "НГ",
+    "НВ",
+    "ДКВ",
+    "КМП",
+    "ТК",
+    "ОД",
+    "ФК",
+    "ПН",
+    "НП",
+    "ЗО",
+    "СГНС",
+    "ОДВ",
+    "Э"
+  ]
+}

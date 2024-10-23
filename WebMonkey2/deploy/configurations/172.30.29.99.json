@@ -1,0 +1,15 @@
+{
+  "Datacenter": "smolensk",
+  "InfoProviderAddress": "192.168.254.99:50293",
+  "GetLatestConciseReportsTake": 100,
+  "GetLatestConciseReportsSkip": 0,
+  "RefreshInterval": 1,
+  "TimeoutReadyMinutes": 30,
+  "Host": "172.30.29.81",
+  "Port": "5001",
+  "Reports": [
+    "АРНВ",
+    "ТК",
+    "ФК"
+  ]
+}
