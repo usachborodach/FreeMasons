@@ -9,6 +9,6 @@ def favicon():
 @app.route("/", methods=["GET"])
 def return_index_page():
     json_input = json.loads(requests.get("http://172.30.19.141:5001").text)
-    return render_template("index.html", Data=json_input, config=config)
+    return render_template("index.html", json_input=json_input, config=config)
 
 app.run(debug=True, host="0.0.0.0", port=5010)

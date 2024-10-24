@@ -4,6 +4,7 @@
   "InfoProviderAddress": "192.168.254.99:50293",
   "GetLatestConciseReportsTake": 100,
   "GetLatestConciseReportsSkip": 0,
+  "NumberOfControlPoints": 0,
   "RefreshInterval": 1,
   "TimeoutReadyMinutes": 30,
   "Host": "10.11.21.141",

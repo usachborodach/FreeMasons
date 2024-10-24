@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask
 import json, requests, base64, bson
 consul_response = (requests.get("http://localhost:8500/v1/kv/tools/ReportsMonitoring")).text
 print(consul_response)
@@ -7,5 +7,6 @@ app = Flask(__name__)
 @app.route("/", methods=["GET"])
 def index_page():
     data = json.loads(open("/tmp/reports_monitoring.json", encoding="utf-8").read())
-    return jsonify(data)
+    print(data)
+    return data
 app.run(debug=True, host=config["Host"], port=config["Port"])
